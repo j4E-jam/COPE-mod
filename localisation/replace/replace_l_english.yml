@@ -324,19 +324,19 @@
  
 
  # insults_l_english
- insult_default16:0 "If laughter is the best medicine, your army must be curing the world."
- insult_default17:0 "It's better to let someone think that you are a fool than to open your mouth and prove it."
- insult_default18:0 "I usually don't engage in mental combat with the unarmed."
- insult_default19:0 "We can always tell when you are lying. Your lips move."
- insult_default20:0 "Very easy is suitable for beginners who feel that Normal is too challenging."
- insult_default21:0 "If you won't be a good example, then you'll have to be a horrible warning."
- insult_default22:0 "The [Root.GetAdjective] will always try to do the right thing-- after they've tried everything else."
- insult_default23:0 "Thinking is the most unhealthy disease in the world, and people die of it just as they die of any other disease. Fortunately, in [Root.GetName] at any rate, thought is not catching."
- insult_default24:0 "Your [Root.Consort.GetTitle] smells like a wild boar."
- insult_default25:0 "We'll accept your wives as refugees. Nobody wants to live with cowards."
- insult_default26:0 "It's impossible to underestimate you."
- insult_default27:0 "I do not consider you a vulture. I consider you something a vulture would eat."
- insult_default28:0 "If I throw a stick, will you leave?"
+ insult_default16:0 "You are alone. There is only darkness for you, and only death for your nation. These wars are just the beginning. I will command a great and terrible hugbox, and we will sail to a billion continents. We will sail untill every light has been extinguished. You are strong, but I am beyond strength. It is the end, and I have come for you."
+ insult_default17:0 "Cope."
+ insult_default18:0 "Seethe."
+ insult_default19:0 "Mald."
+ insult_default20:0 "Mald."
+ insult_default21:0 "Mald."
+ insult_default22:0 "Mald."
+ insult_default23:0 "Seethe."
+ insult_default24:0 "Seethe."
+ insult_default25:0 "Seethe."
+ insult_default26:0 "Cope."
+ insult_default27:0 "You are alone. There is only darkness for you, and only death for your nation. These wars are just the beginning. I will command a great and terrible hugbox, and we will sail to a billion continents. We will sail untill every light has been extinguished. You are strong, but I am beyond strength. It is the end, and I have come for you."
+ insult_default28:0 "You are alone. There is only darkness for you, and only death for your nation. These wars are just the beginning. I will command a great and terrible hugbox, and we will sail to a billion continents. We will sail untill every light has been extinguished. You are strong, but I am beyond strength. It is the end, and I have come for you."
  insult_default29:0 "Your inferiority complex is completely justified."
  insult_default30:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName], what you just said is one of the most insanely idiotic things I have ever heard. At no point in your rambling, incoherent response, were you even close to anything that could be considered a rational thought. Everyone in this court is now dumber for having listened to it. I award you no points, and may God have mercy on your soul."
  insult_default_30:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName], what you just said is one of the most insanely idiotic things I have ever heard. At no point in your rambling, incoherent response, were you even close to anything that could be considered a rational thought. Everyone in this court is now dumber for having listened to it. I award you no points, and may God have mercy on your soul."
@@ -346,7 +346,6 @@
  insult_awful_ruler:0 "[Root.Monarch.GetName] may look like an idiot and talk like an idiot, but don't let that fool you-- [Root.Monarch.GetSheHe] really is an idiot."
  insult_dutch_to_english:0 "You rule the waves, we'll rule you."
  insult_portuguese_to_spanish:0 "The Atlantic Ocean is my greatest neighbor."
- 
 
  # golden_century_l_english
  pirates.4.c:0 "No, I don't think so."

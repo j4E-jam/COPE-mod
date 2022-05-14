@@ -15,5 +15,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.33.3"
-path="C:/Users/raimu/Documents/Paradox Interactive/Europa Universalis IV/mod/DogeEU4"
+path="C:/Users/user/Documents/Paradox Interactive/Europa Universalis IV/mod/COPE's Shattered Mod"
 remote_file_id="2806973633"
