@@ -1,0 +1,21 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+
+primary_culture = breton
+religion = catholic
+technology_group = western
+capital = 172
+
+
+1442.8.29 = {
+	monarch = {
+		name = "Francois I"
+		dynasty = "de Dreux"
+		birth_date = 1414.5.14
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+
+}

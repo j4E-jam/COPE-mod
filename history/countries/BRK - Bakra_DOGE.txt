@@ -1,0 +1,30 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = iqta
+primary_culture = mali
+religion = sunni
+technology_group = high_american
+capital = 754
+
+
+1410.1.1 = {
+	monarch = {
+		name = "Mahmud"
+		dynasty = "Bakr"
+		dip = 4
+		adm = 3
+		mil = 0
+	}
+}
+
+
+1444.1.1 = { 
+	leader = { 
+		name = "Keita Zenka"
+		type = conquistador
+		fire = 1 
+		shock = 1 
+		manuever = 3
+		siege = 0 
+	} 
+}

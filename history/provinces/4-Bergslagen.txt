@@ -1,0 +1,43 @@
+#Bergslagen, contains Falun, etc.
+
+################ Province
+capital = "Bergslagen"
+is_city = yes
+
+owner = SWE
+controller = SWE
+add_core = SWE
+
+culture = swedish
+religion = catholic
+
+################ Development
+base_tax = 2 
+base_production = 3
+base_manpower = 2
+
+################ Trade
+trade_goods = iron
+#center_of_trade = x
+
+################ Holy Roman Empire
+hre = no
+
+################ Discovery
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+################ Natives
+#native_size = xxx
+#native_ferocity = xxx
+#native_hostileness = xxx
+
+################ Modifiers
+
+################ Other
+#extra_cost = XX
+#fort_15th = yes 
+
+################ History

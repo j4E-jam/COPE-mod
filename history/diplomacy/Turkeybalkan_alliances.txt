@@ -1,0 +1,25 @@
+#Albania guaranteed by Venice
+guarantee = {
+	first = VEN
+	second = ALB
+	start_date = 1444.11.9
+	end_date = 1468.1.1
+}
+
+#Trebizond guaranteed by Georgia
+guarantee = {
+	first = GEO
+	second = TRE
+	start_date = 1444.11.9
+	end_date = 1461.1.1
+}
+
+# Athens, a Byzantine vassal
+vassal = {
+	first = BYZ
+	second = ATH
+	start_date = 1444.11.9
+	end_date = 1453.5.29
+}
+
+

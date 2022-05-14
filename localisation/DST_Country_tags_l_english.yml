@@ -1,0 +1,273 @@
+﻿l_english:
+ #BRITAIN
+ LOD: "London"
+ LOD_ADJ: "London"
+ WSX: "Wessex"
+ WSX_ADJ: "Wessexian"
+ MRC: "Mercia"
+ MRC_ADJ: "Mercian"
+ EAL: "East Anglia"
+ EAL_ADJ: "East Anglian"
+
+ #IBERIA
+ MCN: "Macaronesia"
+ MCN_ADJ: "Macaronesian"
+ SEV: "Sevilla"
+ SEV_ADJ: "Sevillian"
+ ALC: "Algeciras"
+ ALC_ADJ: "Algeciran"
+ ALN: "Alentejo"
+ ALN_ADJ: "Alentejo"
+ TOL: "Toledo"
+ TOL_ADJ: "Toledan"
+
+ #ITALY
+ RIE: "Trieste"
+ RIE_ADJ: "Trieste"
+ N99: "Brescia"
+ N99_ADJ: "Brisket"
+ PAV: "Pavia"
+ PAV_ADJ: "Pavian"
+ CRM: "Cremona"
+ CRM_ADJ: "Creme"
+ NIC: "Nice"
+ NIC_ADJ: "Nice"
+ ARE: "Arezzo"
+ ARE_ADJ: "Arettine"
+ RAV: "Ravenna"
+ RAV_ADJ: "Ravennan"
+ CAP: "Capitanata"
+ CAP_ADJ: "Capitanare"
+
+ #FRANCE
+ ANJ: "Anjou"
+ ANJ_ADJ: "Anjou"
+ POI: "Poitou"
+ POI_ADJ: "Poitevin"
+ PRS: "Paris"
+ PRS_ADJ: "Parisian"
+ OCC: "Occitania"
+ OCC_ADJ: "Occitan"
+
+ #BENELUX
+
+ #GERMANY
+ SUD: "Sudeten"
+ SUD_ADJ: "Sudeten"
+ NEU: "Neumark"
+ NEU_ADJ: "Neumark"
+ NDB: "North German Confederation"
+ NDB_ADJ: "German"
+ BEL: "Belgium"
+ BEL_ADJ: "Belgian"
+ WEE:0 "Wendish Empire"
+ WEE_ADJ:0 "Wendish"
+
+ #SCANDINAVIA
+ SCN: "Skåne"
+ SCN_ADJ: "Skånsk"
+ JUT: "Jutland"
+ JUT_ADJ: "Jutlander"
+ GTA: "Götaland"
+ GTA_ADJ: "Geat"
+ ZEA: "Zealand"
+ ZEA_ADJ: "Zealander"
+
+
+ #BALKANS
+ SKJ: "Skopje"
+ SKJ_ADJ: "Skopje"
+ MAC: "Macedonia"
+ MAC_ADJ: "Macedonian"
+ AEG: "Aegea"
+ AEG_ADJ: "Aegean"
+ KRV: "Karvuna"
+ KRV_ADJ: "Krav"
+ ILR:0 "Illyria"
+ ILR_ADJ:0 "Illyrian"
+
+ #CARPATHIA
+ CUM: "Cumania"
+ CUM_ADJ: "Cuman"
+
+ #ANATOLIA
+ OSM: "Osman"
+ OSM_ADJ: "Osman"
+
+ #POLAND
+ WPK: "Wielkopolska"
+ WPK_ADJ: "Wielkopolsko"
+ MPK: "Malopolska"
+ MPK_ADJ: "Malopolsko"
+ GLA: "Galicia"
+ GLA_ADJ: "Galician"
+ KJW: "Kujawy"
+ KJW_ADJ: "Kujawy"
+
+
+ #BALTICS
+ MML: "Klaipeda"
+ MML_ADJ: "Klaipeda"
+ SMG: "Samogitia"
+ SMG_ADJ: "Samogitian"
+ BLT:0 "Baltic Union"
+ BLT_ADJ:0 "Baltic"
+
+ #RUTHENIA
+ TVP: "Turov-Pinsk"
+ TVP_ADJ: "Turov-Pinsk"
+ VLH: "Volhynia"
+ VLH_ADJ: "Volhynian"
+
+ #RUSSIA
+ VLG: "Vologda"
+ VLG_ADJ: "Vologan"
+ ARH: "Arkhangelsk"
+ ARH_ADJ: "Arkhangelsk"
+
+ #PONTIC STEPPE
+ AZV: "Azov"
+ AZV_ADJ: "Azov"
+
+ #URALS
+ SRT: "Saratov"
+ SRT_ADJ: "Saratov"
+
+ #EGYPT
+ CYR: "Cyrenaica"
+ CYR_ADJ: "Cyrenaica"
+ ALX: "Alexandria"
+ ALX_ADJ: "Alexandrian"
+ FAF: "Fafaria"
+ FAF_ADJ: "Fafarian"
+ SAI: "Sa'Idi"
+ SAI_ADJ: "Sai'Idi"
+ TKT: "Knights Templar"
+ TKT_ADJ: "Templar"
+ BNS: "Beni Suef"
+ BNS_ADJ: "Beni"
+ EGP: "Aegyptus"
+ EGP_ADJ: "Aegyptus"
+ CAI: "Cairo"
+ CAI_ADJ: "Cairo"
+
+ #MASHRIQ
+ ATC: "Antioch"
+ ATC_ADJ: "Antioch"
+ JOR: "Jordan"
+ JOR_ADJ: "Jordan"
+ ASR: "Assyria"
+ ASR_ADJ: "Assyrian"
+ #ARABIA
+ TBU: "Tabuk"
+ TBU_ADJ: "Tabuk"
+
+ #AFRICA
+ MZQ: "Mozambique"
+ MZQ_ADJ: "Mozambique"
+ BEM: "Bemba"
+ BEM_ADJ: "Bemba"
+ UAR: "United African Republic"
+ UAR_ADJ: "Afrikaner"
+ MDG: "Madagascar"
+ MDG_ADJ: "Malagasy"
+ GHA: "Wagadou"
+ GHA_ADJ: "Wagadou"
+
+ #PERSIA
+ LRS: "Laristan"
+ LRS_ADJ: "Laristani"
+ 
+ #HINDUSTAN
+ BIH: "Bihar"
+ BIH_ADJ: "Bihar"
+ DOA: "Doab"
+ DOA_ADJ: "Doab"
+
+ #BENGAL
+ BLD: "Bangladesh"
+ BLD_ADJ: "Bangladeshi"
+ N98: "Lakhnor"
+ N98_ADJ: "Lakhnori"
+
+ #INDOCHINA
+ KHR: "Khorat"
+ KHR_ADJ: "Khorat"
+ MEK: "Mekong"
+ MEK_ADJ: "Mekong"
+
+ #MALAYA
+ DEL: "Deli"
+ DEL_ADJ: "Deli"
+
+ #INDONESIA
+ SKD: "Sukanda"
+ SKD_ADJ: "Sukanda"
+
+ #KOREA
+ NKR: "Goguryeo"
+ NKR_ADJ: "Goguryeo"
+ SKR: "Silla"
+ SKR_ADJ: "Silla"
+ BKJ: "Baekje"
+ BKJ_ADJ: "Baekje"
+
+ #CANADA
+ VIN: "Vinland"
+ VIN_ADJ: "Vinlandic"
+
+ #SOUTH AMERICA
+ BRK: "Boure Bambouk"
+ BRK_ADJ: "Boure"
+
+ #NORTH AMERICA
+ YNZ: "Yingzhou"
+ YNZ_ADJ: "Yingzhou"
+
+ #CHINA
+ RCH: "Zhongguo"
+ RCH_ADJ: "Chinese"
+ PRC: "Peoples Republic of China"
+ PRC_ADJ: "Chinese"
+ HEA: "Taiping Heavenly Kingdom"
+ HEA_ADJ: "Taiping"
+
+
+ SOE: "Soest"
+ SOE_ADJ: "Soestian"
+###################
+# Formables
+ ALP: "Alpland"
+ ALP_ADJ: "Alplandic"
+ SGF: "South German Confederation"
+ SGF_ADJ: "South German" 
+ SRB: "Saudi Arabia"
+ SRB_ADJ: "Saudi"
+ KVR: "Kievan Rus"
+ KVR_ADJ: "Kievan"
+ TAT: "Tatarstan"
+ TAT_ADJ: "Tatar"
+ ADR: "Adriatic Empire"
+ ADR_ADJ: "Adriatic"
+ HIM: "Himalayan Empire"
+ HIM_ADJ: "Himalayan"
+ CTG: "Carthage"
+ CTG_ADJ: "Carthaginian"
+ LSE: "Lusitanian Empire"
+ LSE_ADJ: "Portuguese"
+ AAS: "Australia"
+ AAS_ADJ: "Australian"
+ INT: "Intermarium"
+ INT_ADJ: "Intermarium"
+ BSP: "Bosporan"
+ BSP_ADJ: "Bosporan"
+ CZS: "Czechoslovakia"
+ CZS_ADJ: "Czechoslovakian"
+ 
+ # VIC_
+ GRP:0 "Germany"
+ GRP_ADJ:0 "German"
+ AUE:0 "Austrian Empire"
+ AUE_ADJ:0 "Austrian"
+ AHE:0 "Austria-Hungary"
+ AHE_ADJ:0 "Austro-Hungarian"

@@ -1,0 +1,20 @@
+government = monarchy
+government_rank = 1
+add_government_reform = holy_state_reform
+
+primary_culture = cosmopolitan_french
+add_accepted_culture = al_suryah_arabic 
+religion = catholic
+technology_group = eastern
+capital = 2313 # Antioch
+
+1441.1.1 = {
+	monarch = {
+		name = "Bohemond VII"
+		dynasty = "Antioch"
+		birth_date = 1416.1.1			
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}

@@ -1,0 +1,8 @@
+government = republic
+government_rank = 1
+add_government_reform = peasants_republic 
+technology_group = chinese
+religion = catholic
+primary_culture = xibei
+capital = 668
+

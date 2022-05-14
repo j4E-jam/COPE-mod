@@ -1,0 +1,20 @@
+# Sevilla
+
+government = monarchy
+government_rank = 1
+#add_government_reform = ?
+
+technology_group = muslim
+religion = sunni
+primary_culture = andalucian
+capital = 224 # Sevilla
+
+1444.1.1 = {			
+	monarch = {
+		name = "Yassuf"
+		dynasty = "Nibrad"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}

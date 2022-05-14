@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+primary_culture = slovak
+religion = catholic
+technology_group = eastern
+capital = 1772 # Nitra
+
+
+1402.6.9 = {
+	monarch = {
+		name = "Daniel"
+		dynasty = "Palfi"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

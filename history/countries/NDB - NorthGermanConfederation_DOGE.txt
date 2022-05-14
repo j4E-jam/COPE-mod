@@ -1,0 +1,34 @@
+government = monarchy
+government_rank = 1
+add_government_reform = feudalism_reform
+
+technology_group = western
+primary_culture = prussian
+religion = catholic
+capital = 50	# Berlin
+
+
+1440.9.21 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Hohenzollern"
+		birth_date = 1413.11.19
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1440.9.21 = {
+	heir = {
+		name = "Albrecht Achilles"
+		monarch_name = "Albrecht III Achilles"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		death_date = 1486.3.11
+		claim = 77
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}

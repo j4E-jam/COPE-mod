@@ -1,0 +1,21 @@
+government = monarchy
+government_rank = 1
+add_government_reform = beylik
+
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 324	# Karaman
+#religious_school = hanafi_school
+
+1361.1.1 = {
+	monarch = {
+		name = "Aleddin I"
+		dynasty = Karamanoglu
+		birth_date = 1341.1.1
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+	add_piety = 0.1
+}

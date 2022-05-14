@@ -1,0 +1,62 @@
+﻿l_english:
+ # Decisions:
+ open_canal_decision_kiel_canal_title: "£big_ship_icon£ Open the §Y[kiel_canal]§!"
+ open_canal_decision_kiel_canal_desc: "Allow ships to pass the §Y[kiel_canal]§! again."
+ close_canal_decision_kiel_canal_title: "£big_ship_icon£ Close the §Y[kiel_canal]§!"
+ close_canal_decision_kiel_canal_desc: "Disallow ships to pass the §Y[kiel_canal]§!."
+
+ open_canal_decision_suez_canal_title: "£big_ship_icon£ Open the §Y[suez_canal]§!"
+ open_canal_decision_suez_canal_desc: "Allow ships to pass the §Y[suez_canal]§! again."
+ close_canal_decision_suez_canal_title: "£big_ship_icon£ Close the §Y[suez_canal]§!"
+ close_canal_decision_suez_canal_desc: "Disallow ships to pass the §Y[suez_canal]§!."
+
+ open_canal_decision_panama_canal_title: "£big_ship_icon£ Open the §Y[panama_canal]§!"
+ open_canal_decision_panama_canal_desc: "Allow ships to pass the §Y[panama_canal]§! again."
+ close_canal_decision_panama_canal_title: "£big_ship_icon£ Close the §Y[panama_canal]§!"
+ close_canal_decision_panama_canal_desc: "Disallow ships to pass the §Y[panama_canal]§!."
+
+
+ open_canal_decision_deux_canal_title: "£big_ship_icon£ Open the §Y[deux_canal]§!"
+ open_canal_decision_deux_canal_desc: "Allow ships to pass the §Y[deux_canal]§! again."
+ close_canal_decision_deux_canal_title: "£big_ship_icon£ Close the §Y[deux_canal]§!"
+ close_canal_decision_deux_canal_desc: "Disallow ships to pass the §Y[deux_canal]§!."
+
+ # Events:
+ closeable_canals_events.EVTNAME1: "[Root.GetCloseableCanalsEvents1Title]"
+ closeable_canals_events.EVTNAME1.1: "§Y[kiel_canal]§! reopened"
+ closeable_canals_events.EVTNAME1.2: "§Y[suez_canal]§! reopened"
+ closeable_canals_events.EVTNAME1.3: "§Y[panama_canal]§! reopened"
+ closeable_canals_events.EVTNAME1.4: "§Y[deux_canal]§! reopened"
+ closeable_canals_events.EVTDESC1.1: "§Y[From.GetName]§! has decided to §Greopen§! the §Y[kiel_canal]§!. All ships are now able to pass through again."
+ closeable_canals_events.EVTDESC1.2: "§Y[From.GetName]§! has decided to §Greopen§! the §Y[suez_canal]§!. All ships are now able to pass through again."
+ closeable_canals_events.EVTDESC1.3: "§Y[From.GetName]§! has decided to §Greopen§! the §Y[panama_canal]§!. All ships are now able to pass through again."
+ closeable_canals_events.EVTDESC1.4: "§Y[From.GetName]§! has decided to §Greopen§! the §Y[deux_canal]§!. All ships are now able to pass through again."
+ closeable_canals_events1.EVTOPT1: "The Canal is now OPEN!"
+
+ closeable_canals_events.EVTNAME2: "[Root.GetCloseableCanalsEvents2Title]"
+ closeable_canals_events.EVTNAME2.1: "§Y[kiel_canal]§! closed"
+ closeable_canals_events.EVTNAME2.2: "§Y[suez_canal]§! closed"
+ closeable_canals_events.EVTNAME2.3: "§Y[panama_canal]§! closed"
+ closeable_canals_events.EVTNAME2.4: "§Y[deux_canal]§! closed"
+ closeable_canals_events.EVTDESC2.1: "§Y[From.GetName]§! has decided to §Rclose§! the §Y[kiel_canal]§!. Ships are now no longer able to pass it."
+ closeable_canals_events.EVTDESC2.2: "§Y[From.GetName]§! has decided to §Rclose§! the §Y[suez_canal]§!. Ships are now no longer able to pass it."
+ closeable_canals_events.EVTDESC2.3: "§Y[From.GetName]§! has decided to §Rclose§! the §Y[panama_canal]§!. Ships are now no longer able to pass it."
+ closeable_canals_events.EVTDESC2.4: "§Y[From.GetName]§! has decided to §Rclose§! the §Y[deux_canal]§!. Ships are now no longer able to pass it."
+ closeable_canals_events2.EVTOPT1: "The Canal is now CLOSED!"
+
+ # Tooltips:
+ CANAL_IS_CLOSED: "The §YCanal§! is closed"
+ CANAL_IS_NOT_CLOSED: "The §YCanal§! is NOT closed"
+ canal_hovering_tooltip: ""
+
+ # Modifiers:
+ canal_closed: "Canal Closed"
+
+
+
+ deux_canal: "Deux Canal"
+ great_project_deux_canal:0 "Deux Canal"
+ construct_deux_canal_title:0 "£big_ship_icon£Construct the Deux Canal"
+ construct_deux_canal_desc: "The building of a canal was an old idea. Numerous and sometimes utopian projects were devised to build a canal between the Atlantic Ocean and the Mediterranean Sea. Leaders such as Augustus, Nero, Charlemagne, François I, Charles IX and Henry IV had dreamed of it, as it is a true political and economic issue. King François I brought Leonardo da Vinci to France in 1516 and commissioned a survey of a route from the Garonne at Toulouse to the Aude at Carcassonne.\n\nThe construction of such a structure would save vessels (of trade but also the king's galleys) and goods from sailing around the Iberian Peninsula which could take a month to complete. At that time shipping was fraught with dangers such as piracy and the Barbary pirates.\n\nThe most realistic projects were presented to the King in the 16th century. A first draft was presented by Nicolas Bachelier in 1539 to the Estates of Languedoc then a second in 1598 by Pierre Reneau and finally a third project was proposed by Bernard Aribat de Béziers in 1617. These projects were abandoned because they did not give enough thought to the water supply for the canal and provided a system of diversion of water from Pyrénées rivers too complex or impossible to implement. In 1650 another engineer also proposed to divert water from the Ariège to Cintegabelle to bring a non-navigable canal to Pech-David near Toulouse. Again, the question arose of how to carry water to the Seuil de Naurouze at a greater height than that of Toulouse."
+
+ canal_appearing_tooltip: "Monument building option will appear in the appropriate province."

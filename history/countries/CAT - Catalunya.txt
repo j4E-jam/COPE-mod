@@ -1,0 +1,17 @@
+government = monarchy
+government_rank = 1
+add_government_reform = crown_of_aragon
+religion = catholic
+primary_culture = catalan
+technology_group = western
+capital = 213	# Barcelona
+
+1444.1.1 = {			
+	monarch = {
+		name = "Luis I"
+		dynasty = "de Villena"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

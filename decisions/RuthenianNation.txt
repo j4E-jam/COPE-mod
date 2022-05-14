@@ -1,0 +1,99 @@
+country_decisions = {
+
+	ruthenian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_ruthenia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }			
+			NOT = { exists = UKR }
+			NOT = { exists = KVR }
+			OR = {
+				primary_culture = byelorussian
+				primary_culture = ruthenian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			region = ruthenia_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}		
+		allow = {
+			NOT = { exists = KVR }
+			adm_tech = 10
+			is_subject = no
+			is_at_war = no	
+			ruthenia_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+	 	effect = {
+			change_tag = UKR # Country TAG
+			set_country_flag = formed_ruthenia_flag # Country Formation Flag
+			custom_tooltip = tooltip_line_seperate
+			KVR = { # Capital change and bonuses				
+				set_capital = 280 # Kiev
+				280 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+			custom_tooltip = tooltip_line_seperate
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+						}
+					}
+				change_government = monarchy
+			}
+			custom_tooltip = tooltip_line_seperate
+			if = {
+				limit = {
+					technology_group = nomad_group
+				}
+				change_technology_group = eastern
+				change_unit_type = eastern
+			}
+			# Events
+			custom_tooltip = tooltip_line_seperate
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			# Modifiers
+			custom_tooltip = tooltip_line_seperate
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}			
+		}
+		ai_importance = 500	
+	}
+	
+}

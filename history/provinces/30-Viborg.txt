@@ -1,0 +1,30 @@
+#Viborgs lon, incl. Viborg, Villmansstrand, and Kivinibb.
+
+owner = FIN
+controller = FIN
+add_core = FIN
+culture = finnish
+religion = suomenusko
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = fur
+base_manpower = 2
+capital = "Viborg"
+is_city = yes
+#fort_15th = yes
+
+discovered_by = western
+discovered_by = eastern
+
+
+1444.11.9 = { 
+    owner = SWE
+    controller = SWE
+
+    add_core = SWE
+
+    culture = finnish
+    religion = catholic
+    
+}

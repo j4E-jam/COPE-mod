@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = hungarian
+add_accepted_culture = slovak
+add_accepted_culture = transylvanian
+religion = catholic
+technology_group = eastern
+capital = 153 # Buda
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+
+1417.11.3 = {
+	monarch = {
+		name = "Sigismund II"
+		dynasty = "von Luxemburg"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1444.11.9 = {
+	historical_friend = HAB
+	monarch = {
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}

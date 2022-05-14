@@ -1,0 +1,49 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = cathar_reform
+
+primary_culture = piedmontese
+religion = cathar
+technology_group = western
+capital = 205 # Chambery
+
+add_accepted_culture = occitain
+
+1434.11.2 = {
+	monarch = {
+		name = "Ludovico I"
+		dynasty = "di Savoia"
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	queen = {
+		country_of_origin = CYP
+		name = "Anne"
+		dynasty = "de Lusignan"
+		birth_date = 1418.9.24
+		death_date = 1462.11.11
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_queen_personality = embezzler_personality
+}
+
+1435.2.1 = {
+	heir = {
+		name = "Amedeo"
+		monarch_name = "Amedeo IX"
+		dynasty = "di Savoia"
+		birth_date = 1435.2.1
+		death_date = 1472.3.30
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}
+
+1444.11.9 = {
+	religion = catholic
+}

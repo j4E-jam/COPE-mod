@@ -1,0 +1,20 @@
+# Eeast Anglia
+government = monarchy
+government_rank = 1
+##add_government_reform = feudalism_reform
+
+technology_group = western
+primary_culture = english
+religion = catholic
+capital = 1860	# Norfolk
+
+1444.11.1 = {
+	monarch = {
+		name = "Ealdwulf"
+        dynasty = "Wuffingas"
+        birth_date = 1414.1.1
+		adm = 3
+		mil = 4
+		dip = 4
+	}
+}

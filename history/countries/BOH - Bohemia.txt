@@ -1,0 +1,24 @@
+government = monarchy
+government_rank = 1
+add_government_reform = crown_of_saint_wenceslaus_2
+primary_culture = czech
+religion = catholic
+capital = 266 # Praha
+technology_group = western
+add_accepted_culture = sudeten
+
+1439.10.27 = {
+	monarch = {
+		name = "Landfriedens"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+#Holy Roman Empire Electors
+1444.11.3 = { elector = no }
+1444.11.6 = { elector = yes }
+1444.11.7 = { elector = no }
+1444.11.9 = { elector = yes }

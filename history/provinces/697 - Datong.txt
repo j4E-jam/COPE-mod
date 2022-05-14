@@ -1,0 +1,25 @@
+#697 - Datong
+
+owner = JIN
+controller = JIN
+add_core = JIN
+culture = jin
+religion = zen
+capital = "Datong"
+trade_goods = iron
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+fort_15th = yes #the Nine Garrisons
+
+discovered_by = chinese
+discovered_by = nomad_group
+1444.11.9 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+
+    religion = confucianism
+}

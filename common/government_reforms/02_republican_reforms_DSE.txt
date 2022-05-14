@@ -1,0 +1,151 @@
+althingi_reform = {
+	icon = "althingi"
+	allow_normal_conversion = yes
+	duration = 4
+	legacy_equivalent = althingi_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	potential = {
+		OR = {
+			tag = ICE
+			was_tag = ICE
+			culture_group = scandinavian
+		}
+	}
+	trigger = {
+		OR = {
+			tag = ICE
+			was_tag = ICE
+			culture_group = scandinavian
+		}
+	}
+    factions = {
+        conflux_elders
+        conflux_traders
+        conflux_warlords
+    }
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	modifiers = {
+		naval_morale = 0.1
+		#development_cost = -0.1
+		conflux_traders_influence = 0.15
+		max_absolutism = -40
+	}
+	custom_attributes = {
+		enables_monarchie_idea_group = no
+		enables_republik_idea_group = yes
+		blocked_call_diet = yes
+	}
+	ai = {
+		factor = 100 #dank
+	}
+}
+
+
+
+parliamentary_democracy = {
+	# government mechanics flags go here
+	icon = "constitution"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	duration = 4
+
+	republican_name = yes
+	royal_marriage = no
+
+	republic = yes
+	modifiers = {
+    	governing_capacity = 100
+		production_efficiency = 0.15
+		trade_efficiency = 0.15
+		global_unrest = -1
+		global_autonomy = -0.075
+		max_absolutism = -60
+	}
+
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 2
+			AND = { 
+				has_idea_group = humanist_ideas
+				has_idea_group = innovativeness_ideas
+			}
+		}
+	}
+}
+
+prc_republic_reform = {
+	icon = "peasant_republic"
+	allow_normal_conversion = no
+	allow_convert = no
+	valid_for_new_country = yes
+	potential = {
+		OR = {
+			tag = PRC
+			have_had_reform = prc_republic_reform
+		}
+	}
+	duration = 4
+	lock_level_when_selected = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	modifiers = {
+		production_efficiency = 0.1
+		land_morale = 0.05
+		max_absolutism = -50
+	}
+	custom_attributes = {
+		enables_world_revolution_cb = yes
+	}
+}
+
+# T4
+
+naval_interest_military_republic = {
+	icon = "ship_image_reform"
+	allow_normal_conversion = yes
+	effect = {
+		change_variable = {
+			which = Burgher_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Burgher_Influence
+			value = -1
+		}
+	}
+	potential = {
+	}
+	modifiers = {
+		naval_morale = 0.1
+	}
+	custom_attributes = {
+		enables_naval_vassal_support = yes #+2.5% Heavy ship combat ability for each vassal with a coast and a minimum of 25 development (up to 15%)
+
+	}
+	ai = {
+		factor = 0
+	}
+}

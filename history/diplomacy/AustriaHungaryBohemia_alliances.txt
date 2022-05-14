@@ -1,0 +1,22 @@
+# Bohemia - Silesia
+vassal = {
+	first = BOH
+	second = GLG
+	start_date = 1444.11.9
+	end_date = 1526.8.29
+}
+vassal = {
+	first = BOH
+	second = OPL
+	start_date = 1444.11.9
+	end_date = 1526.8.29
+}
+
+# Croatia-Hungary, post-Ladislaus of Naples' attempt to take the Croatian and Hungarian crowns
+union = {
+	first = HUN
+	second = CRO
+	start_date = 1444.11.9
+	end_date = 1526.8.30
+}
+

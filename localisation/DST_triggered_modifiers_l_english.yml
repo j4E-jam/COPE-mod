@@ -1,0 +1,37 @@
+﻿l_english:
+ first_diplo_relations: "1470 Diplomatic Relations"
+ second_diplo_relations: "1500 Diplomatic Relations"
+ jake_monarch_buff: "Monarch Buff"
+ jake_idea_buff: "Idea Cost Buff"
+ anglican_army_aspect: "Anglican Militarization"
+
+
+
+
+
+ # Absolutism Liberty Desire
+ absolutism_liberty_desire_1: "Absolutism: Liberty Desire I"
+ absolutism_liberty_desire_2: "Absolutism: Liberty Desire II"
+ absolutism_liberty_desire_3: "Absolutism: Liberty Desire II"
+ absolutism_liberty_desire_4: "Absolutism: Liberty Desire IV"
+ absolutism_liberty_desire_5: "Absolutism: Liberty Desire V"
+
+
+ # Building Force Limit
+ buildings_landforcelimit_1: "Army Limit Increase I"
+ buildings_landforcelimit_2: "Army Limit Increase II"
+ buildings_landforcelimit_3: "Army Limit Increase III"
+ buildings_landforcelimit_4: "Army Limit Increase IV"
+ buildings_landforcelimit_5: "Army Limit Increase V"
+ 
+ buildings_navyforcelimit_1: "Navy Limit Increase I"
+ buildings_navyforcelimit_2: "Navy Limit Increase II"
+ buildings_navyforcelimit_3: "Navy Limit Increase III"
+ buildings_navyforcelimit_4: "Navy Limit Increase IV"
+ buildings_navyforcelimit_5: "Navy Limit Increase V"
+
+ province_devastation_idea_bonus: "Effective Relief Adminstration"
+
+
+ # Idea Bonuses
+ entwicklung_6_bonus: "Homeland Support"

@@ -1,0 +1,20 @@
+# Alentejo
+
+government = monarchy
+government_rank = 1
+#add_government_reform = ?
+
+technology_group = muslim
+religion = sunni
+primary_culture = andalucian
+capital = 230 # Algarve
+
+1444.1.1 = {			
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Nasrid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

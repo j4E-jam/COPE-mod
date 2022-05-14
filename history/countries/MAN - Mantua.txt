@@ -1,0 +1,33 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+
+primary_culture = romagnan
+religion = catholic
+technology_group = western
+capital = 109	# Mantova
+
+1444.9.23 = {
+	monarch = {
+		name = "Lodovico III il Turco"
+		dynasty = "Gonzaga"
+		birth_date = 1412.6.5
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1444.9.23 = {
+	heir = {
+		name = "Federico"
+		monarch_name = "Federico I"
+		dynasty = "Gonzaga"
+		birth_date = 1441.6.25
+		death_date = 1484.7.14
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 1
+	}
+}

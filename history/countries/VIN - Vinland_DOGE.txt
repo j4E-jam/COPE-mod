@@ -1,0 +1,30 @@
+government = republic
+government_rank = 1
+primary_culture = vinlandic
+religion = norse_pagan_reformed
+technology_group = high_american
+historical_friend = IRO
+
+capital = 980 #Beothuk
+1444.1.1 = { set_country_flag = formed_vinland_flag }
+1444.6.20 = {
+	monarch = {
+		name = "Thorkel IV"
+		dynasty = "Leif"
+		birth_date = 1404.12.25
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+}
+
+1444.1.1 = { 
+	leader = { 
+		name = "Thorsting Olafson"
+		type = conquistador
+		fire = 1 
+		shock = 1 
+		manuever = 3
+		siege = 0 
+	} 
+}

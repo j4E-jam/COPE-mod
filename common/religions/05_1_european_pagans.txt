@@ -1,0 +1,147 @@
+european_pagan = {
+    defender_of_faith = yes
+
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 83 96 }
+
+	romuva = {
+		icon = 53
+		color = { 0.75 0.5 0.35 }
+		country = {
+			fort_maintenance_modifier = -0.2
+			tolerance_own = 1
+		}
+
+		country_as_secondary = {
+			fort_maintenance_modifier = -0.1
+			shock_damage_received = -0.1
+		}
+
+		personal_deity = yes
+
+		heretic = { slavic norse_pagan_reformed celtic suomenusko hellenic_pagan solar_monism }	
+	}
+	
+	suomenusko = {
+		icon = 54
+		color = { 250 140 180 }
+		country = {
+			defensiveness = 0.15
+			num_accepted_cultures = 2
+		}
+		country_as_secondary = {
+			num_accepted_cultures = 1
+			defensiveness = 0.1
+		}
+
+		personal_deity = yes
+		heretic = { slavic norse_pagan_reformed romuva celtic hellenic_pagan solar_monism }	
+	}
+
+	norse_pagan_reformed = {
+		icon = 21
+		color = { 180 180 180 }
+		country = {
+			land_forcelimit_modifier = 0.1
+			naval_forcelimit_modifier = 0.10
+		}
+		country_as_secondary = {
+			merc_maintenance_modifier = -0.1
+			galley_power = 0.2
+		}
+
+		
+		personal_deity = yes
+		
+		heretic = { slavic celtic romuva suomenusko hellenic_pagan solar_monism }	
+	}
+
+	celtic = {
+		icon = 61
+		color = { 50 180 20 }
+
+		country = {
+			movement_speed = 0.15
+			hostile_attrition = 1
+		}
+
+		country_as_secondary = {
+			global_tax_modifier = 0.1
+			hostile_attrition = 1
+		}
+
+		personal_deity = yes
+        
+        heretic = { slavic norse_pagan_reformed romuva suomenusko hellenic_pagan solar_monism }	
+	}
+
+	slavic = {
+		icon = 55
+		color = { 10 104 158 }
+		country = {
+			culture_conversion_cost = -0.15
+			global_missionary_strength = 0.03
+		}
+		province = {
+			local_manpower_modifier = 0.1
+		}
+		country_as_secondary = {
+			manpower_recovery_speed = 0.1
+			advisor_cost = -0.1
+		}
+
+		personal_deity = yes
+		
+		heretic = { celtic norse_pagan_reformed romuva suomenusko hellenic_pagan solar_monism }	
+	}
+
+	hellenic_pagan = {
+		icon = 58
+		color = { 160 0 0 }
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = 1
+		}
+		
+		country_as_secondary = {
+			tolerance_heathen = 2
+			advisor_cost = -0.1
+		}
+		
+		personal_deity = yes
+		
+		heretic = { celtic norse_pagan_reformed romuva suomenusko slavic solar_monism }	
+	}
+	
+	solar_monism = {
+		icon = 18
+		color = { 1.0 0.4 0.0 }
+		country = {
+			land_morale = 0.1
+			church_power_modifier = 1
+		}
+
+		province = {
+			local_manpower_modifier = 0.1
+		}
+		
+		uses_anglican_power = yes
+
+		aspects = {
+			solar_infantry_tactics
+			solar_cavalry_tactics
+			solar_artillery_tactics
+			solar_defense_tactics
+			#solar_naval_tactics
+			solar_raiding
+		}
+
+		aspects_name = ANGLICAN_ASPECTS
+		
+		heretic = { celtic norse_pagan_reformed romuva suomenusko hellenic_pagan slavic }
+	}
+
+    
+	crusade_name = HOLY_WAR
+	harmonized_modifier = harmonized_pagan
+}   

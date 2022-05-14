@@ -1,0 +1,7 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+technology_group = eastern
+religion = catholic
+primary_culture = ruthenian
+capital = 279	# Volhynia

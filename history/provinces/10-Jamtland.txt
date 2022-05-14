@@ -1,0 +1,31 @@
+#10 J�mtland+H�rjedalen
+
+owner = SWE
+controller = SWE
+culture = swedish # They were actually J�mts - the unique blend of Swedish, Norwegian and local tendencies
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Fr�s�n"
+is_city = yes
+add_core = SWE
+
+discovered_by = eastern
+discovered_by = western
+
+
+
+
+1444.11.9 = { 
+    owner = NOR
+    controller = NOR
+
+    add_core = NOR 
+    remove_core = SWE
+    culture = norwegian
+    religion = catholic
+    
+}

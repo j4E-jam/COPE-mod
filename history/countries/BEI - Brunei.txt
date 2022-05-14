@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+add_government_reform = mandala_reform
+primary_culture = bornean
+religion = sunni
+technology_group = chinese
+capital = 636	# Brunei Town
+
+
+1432.1.1 = {
+	monarch = {
+		name = "Sulaymon"
+		dynasty = "Bolkiah"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

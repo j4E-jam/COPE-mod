@@ -1,0 +1,19 @@
+government = monarchy
+government_rank = 1
+##add_government_reform = feudalism_reform
+religion = catholic
+primary_culture = catalan
+technology_group = western
+capital = 333	# Majorca
+
+1433.1.1 = {
+    monarch = {
+        name = "Bonifacio"
+        dynasty = "del Monferrato"
+        birth_date = 1426.10.4
+        adm = 3
+        dip = 5
+        mil = 2
+    }
+
+}

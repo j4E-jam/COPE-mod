@@ -1,0 +1,30 @@
+government = monarchy
+government_rank = 1
+##add_government_reform = feudalism_reform
+primary_culture = basque
+religion = catholic
+technology_group = western
+capital = 210	# Pamplona
+
+
+1444.1.1 = {			
+	monarch = {
+		name = "Garcia"
+		dynasty = "de Navarra"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+
+1444.11.9 = {
+	monarch = {
+		name = "Joan II"
+		dynasty = "de Trastámara"
+		birth_date = 1397.6.29
+		adm = 4
+		dip = 1
+		mil = 0
+	}
+	set_ruler_flag = joan_trastamara_flag
+}

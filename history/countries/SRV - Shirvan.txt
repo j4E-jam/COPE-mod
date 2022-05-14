@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = iqta
+primary_culture = azerbaijani
+technology_group = muslim
+religion = shiite
+capital = 421
+#religious_school = jafari_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Ibrahim I Muhammad"
+		dynasty = "Derbendid"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

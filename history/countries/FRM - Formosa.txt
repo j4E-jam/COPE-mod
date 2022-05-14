@@ -1,0 +1,20 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = autocracy_reform
+technology_group = chinese
+religion = polynesian_religion #confucianism
+primary_culture = chimin
+capital = 738 # Sakam
+#add_harmonized_religion = animism polynesian
+add_accepted_culture = polynesian
+
+1444.1.1 = {
+	monarch = {
+		name = "Koxinga"
+        dynasty = "Zheng"
+        birth_date = 1402.11.3
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

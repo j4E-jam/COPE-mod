@@ -1,0 +1,20 @@
+government = monarchy
+government_rank = 2
+#add_government_reform = feudalism_reform
+primary_culture = highland_scottish
+religion = norse_pagan_reformed
+technology_group = western
+
+capital = 4365 # Mann
+
+
+1444.11.1 = {
+	monarch = {
+		name = "Myndoras"
+        dynasty = "Odon"
+        birth_date = 1420.1.1
+		adm = 3
+		mil = 5
+		dip = 4
+	}
+}

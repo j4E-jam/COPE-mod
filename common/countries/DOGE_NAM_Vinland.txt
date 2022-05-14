@@ -1,0 +1,91 @@
+#Vinland 
+
+graphical_culture = westerngfx
+
+color = { 200 200 200 }
+
+historical_idea_groups = {
+exploration_ideas
+expansion_ideas
+trade_ideas
+}
+
+historical_units = {
+
+}
+
+monarch_names = {
+	"Leif #4" = 40
+	"Raganarr #2" = 20
+	"Indga #2" = -20
+	"Gunnhildr #1" = -0
+	"Bengt #1" = 10
+	"Edvard #0" = 0
+	"Einar #0" = 0
+	"Folke #1" = 10
+	"Gottfrid #0" = 0
+	"Henrik #0" = 0
+	"Jakob #1" = 0
+	"Patrik #0" = 0
+	"Rangvald #0" = 0
+	"Rettil #0" = 0
+}
+
+leader_names = {
+	Anki Arkur Arten "af Snjolend" "af Graenlend" "af Gennaes"
+	Bo Burdi Bagge Baner Bielke Brahe
+	Cronstedt
+	"de la Altherag" "de la Gardie"
+	Gadh Grip Gyllenhielm Gathenhielm Gustavsson Goert Galen
+	Horn Heaurd Hahn Hastfer Hjaerne Heronnla
+	Jagerhorn Johannson
+	Lodbruk 
+	Ragnarrson Ribbing
+	"Tre Rosor" Torstensson "af Trolle" Toll Tolikr 
+}
+
+ship_names = {
+		Odin
+		Loki
+		Ragnarok
+		Lief
+		Erik
+		Blok
+		Helheim
+		Valkyrie
+		Vinland
+		Freyr
+		Markland
+		Tyr 
+		Baduhenna
+		Zisa
+		Ragnar
+		Snotra 
+		Geror 
+		Ve
+		Oor
+		Heimdallr
+		Wyrm
+		"Odin II"
+		Sigyn
+		Njoerun
+		Yggdrasil
+		Mikdgard
+		Irpa 
+		Frigg
+		Hird
+		Gullveig
+		Svadar
+		Hel
+		Bragi
+		Tolkien
+		Bragi
+		Tor
+		Hakke
+		Azteoc
+		Greenlandt
+		Norge
+		Danmark
+		Drage
+		"Svart Drage"
+}

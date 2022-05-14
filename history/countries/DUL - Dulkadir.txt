@@ -1,0 +1,34 @@
+government = monarchy
+government_rank = 1
+add_government_reform = beylik
+
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 332	# Dulkadir
+#religious_school = hanafi_school
+
+1442.1.1 = {
+	monarch = {
+		name = "Sulaymon"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1398.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1442.1.1 = {
+	heir = {
+		name = "Melik"
+		monarch_name = "Melik Arslan"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1428.1.1
+		death_date = 1465.1.1     
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

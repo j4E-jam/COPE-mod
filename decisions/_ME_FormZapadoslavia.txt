@@ -1,0 +1,111 @@
+country_decisions = {
+	form_zapadoslavia = {
+		major = yes
+		potential = {
+			NOT = { exists = ZCV }
+			NOT = { tag = WEE }
+			NOT = { has_country_flag = zapadoslavia_formed_flag }
+			was_never_end_game_tag_trigger = yes
+			normal_or_historical_nations = yes
+			OR = {
+				culture_group = west_slavic
+				tag = SLO
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 266
+				province_id = 264
+				province_id = 257
+				province_id = 262
+				province_id = 1772
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_emperor = no
+			adm_tech = 10
+			owns_core_province = 266
+			owns_core_province = 264
+			owns_core_province = 257
+			owns_core_province = 262
+			owns_core_province = 1772
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = ZCV
+			swap_non_generic_missions = yes
+			set_country_flag = zapadoslavia_formed_flag
+			set_country_flag = formed_poland_flag
+			custom_tooltip = tooltip_line_seperate
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				emperor = {
+					add_opinion = {
+						who = ROOT
+						modifier = opinion_left_empire
+					}
+					country_event = { id = hre_event.5 }
+				}
+				set_in_empire = no
+				hidden_effect = {
+					every_owned_province = {
+						limit = {
+							is_part_of_hre = yes
+						}
+						set_in_empire = no
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			custom_tooltip = tooltip_line_seperate
+			#remove_country_modifier = bohemia_after_the_crisis_modifier #if ME Bohemia missions added, re-add this too
+			# Events
+			custom_tooltip = tooltip_line_seperate
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			country_event = { id = ME_Zapadoslavia_Events.99 } # Western or Eastern Tech and Unit Type
+			# Modifiers
+			custom_tooltip = tooltip_line_seperate
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			hidden_effect = {
+				europe = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						NOT = { is_core = ROOT }
+						culture_group = west_slavic
+					}
+					add_permanent_claim = ZCV
+				}
+			}
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

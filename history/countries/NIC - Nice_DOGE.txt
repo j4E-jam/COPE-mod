@@ -1,0 +1,10 @@
+government = republic
+government_rank = 1
+#add_government_reform = 
+
+technology_group = western
+religion = catholic
+primary_culture = ligurian
+#add_accepted_culture = ?
+capital = 102 # Nice ;)
+

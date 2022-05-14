@@ -1,0 +1,20 @@
+government = theocracy
+government_rank = 1
+add_government_reform = leading_clergy_reform
+
+technology_group = western
+primary_culture = franconian
+religion = catholic
+capital = 79	# W�rzburg
+fixed_capital = 79 # Cannot move capital away from this province & no power cost to move to it
+
+
+1444.11.3 = {
+	monarch = {
+		name = "Gottfried IV"
+		birth_date = 1404.1.26
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

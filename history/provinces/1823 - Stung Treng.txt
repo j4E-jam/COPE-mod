@@ -1,0 +1,23 @@
+#1823 - Stung Treng
+
+owner = CHK
+controller = CHK
+culture = khmer
+religion = dayawism
+capital = "Stung Treng"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = CHK
+
+discovered_by = chinese
+discovered_by = indian
+
+1444.11.9 = {
+	owner = KHM
+	controller = KHM
+	add_core = KHM
+}

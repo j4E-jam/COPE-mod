@@ -1,0 +1,21 @@
+government = theocracy
+government_rank = 1
+add_government_reform = monastic_order_reform
+
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+add_accepted_culture = greek
+capital = 320 # Rhodes
+
+
+1437.1.1 = {
+	monarch = {
+		name = "Jean Bonpar de Lastic"
+		birth_date = 1371.1.1
+		culture = cosmopolitan_french
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

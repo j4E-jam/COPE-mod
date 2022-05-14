@@ -1,0 +1,43 @@
+#
+
+################ Province
+capital = "Hudiksvall"
+is_city = yes
+
+owner = SWE
+controller = SWE
+add_core = SWE
+
+culture = swedish
+religion = catholic
+
+################ Development
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+
+################ Trade
+trade_goods = fish
+#center_of_trade = x
+
+################ Holy Roman Empire
+hre = no
+
+################ Discovery
+discovered_by = western
+discovered_by = eastern
+
+################ Natives
+#native_size = xxx
+#native_ferocity = xxx
+#native_hostileness = xxx
+
+################ Modifiers
+
+
+################ Other
+#extra_cost = XX
+#fort_15th = yes 
+
+################ History
+

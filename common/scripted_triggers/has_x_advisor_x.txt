@@ -1,0 +1,193 @@
+
+has_adm_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = has_adm_advisor_tooltip
+		OR={
+		philosopher = 1
+		natural_scientist = 1
+		artist = 1
+		treasurer = 1
+		theologian = 1
+		master_of_mint = 1
+		inquisitor = 1
+
+		subject_taxman = 1
+		researcher = 1
+		anti_corruption_officer = 1
+		reformist = 1
+		missionary_advisor = 1
+		}
+	}
+}
+
+has_adm_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = has_adm_advisor_2_tooltip
+		OR={
+		philosopher = 2
+		natural_scientist = 2
+		artist = 2
+		treasurer = 2
+		theologian = 2
+		master_of_mint = 2
+		inquisitor = 2
+
+		subject_taxman = 2
+		researcher = 2
+		anti_corruption_officer = 2
+		reformist = 2
+		missionary_advisor = 2
+		}
+	}
+}
+
+has_adm_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = has_adm_advisor_3_tooltip
+		OR={
+		philosopher = 3
+		natural_scientist = 3
+		artist = 3
+		treasurer = 3
+		theologian = 3
+		master_of_mint = 3
+		inquisitor = 3
+
+		subject_taxman = 3
+		researcher = 3
+		anti_corruption_officer = 3
+		reformist = 3
+		missionary_advisor = 3
+		}
+	}
+}
+
+
+has_dip_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = has_dip_advisor_tooltip
+		OR={
+		statesman = 1
+		naval_reformer = 1
+		trader = 1
+		spymaster = 1
+		colonial_governor = 1
+		diplomat = 1
+		navigator = 1
+
+		ship_inspector = 1
+		mercantile_influencer = 1
+		marketeer = 1
+		navy_organiser = 1
+		naval_surgeon = 1
+		}
+	}
+}
+
+has_dip_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = has_dip_advisor_2_tooltip
+		OR={
+		statesman = 2
+		naval_reformer = 2
+		trader = 2
+		spymaster = 2
+		colonial_governor = 2
+		diplomat = 2
+		navigator = 2
+
+		ship_inspector = 2
+		mercantile_influencer = 2
+		marketeer = 2
+		navy_organiser = 2
+		naval_surgeon = 2
+		}
+	}
+}
+
+has_dip_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = has_dip_advisor_3_tooltip
+		OR={
+		statesman = 3
+		naval_reformer = 3
+		trader = 3
+		spymaster = 3
+		colonial_governor = 3
+		diplomat = 3
+		navigator = 3
+
+		ship_inspector = 3
+		mercantile_influencer = 3
+		marketeer = 3
+		navy_organiser = 3
+		naval_surgeon = 3
+		}
+	}
+}
+
+has_mil_advisor = {
+	custom_trigger_tooltip = {
+		tooltip = has_mil_advisor_tooltip
+		OR={
+		army_reformer = 1
+		army_organiser = 1
+		commandant = 1
+		quartermaster = 1
+		recruitmaster = 1
+		fortification_expert = 1
+		grand_captain = 1
+
+
+		supplier = 1
+		fieldSurgeon = 1
+		mercenaryLeader = 1
+		fortInspector = 1
+		lootExpert = 1
+		}
+	}
+}
+
+has_mil_advisor_2 = {
+	custom_trigger_tooltip = {
+		tooltip = has_mil_advisor_2_tooltip
+		OR={
+		army_reformer = 2
+		army_organiser = 2
+		commandant = 2
+		quartermaster = 2
+		recruitmaster = 2
+		fortification_expert = 2
+		grand_captain = 2
+
+
+		supplier = 2
+		fieldSurgeon = 2
+		mercenaryLeader = 2
+		fortInspector = 2
+		lootExpert = 2
+		}
+	}
+}
+
+has_mil_advisor_3 = {
+	custom_trigger_tooltip = {
+		tooltip = has_mil_advisor_3_tooltip
+		OR={
+		army_reformer = 3
+		army_organiser = 3
+		commandant = 3
+		quartermaster = 3
+		recruitmaster = 3
+		fortification_expert = 3
+		grand_captain = 3
+
+
+		supplier = 3
+		fieldSurgeon = 3
+		mercenaryLeader = 3
+		fortInspector = 3
+		lootExpert = 3
+		}
+	}
+}

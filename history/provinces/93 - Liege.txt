@@ -1,0 +1,34 @@
+# 93 Liege - Principal cities: Liege & Namur
+
+owner = LIE
+controller = LIE
+capital = "Liege"
+is_city = yes
+culture = wallonian
+religion = catholic
+hre = yes
+base_tax = 6 
+base_production = 6
+trade_goods = glass
+base_manpower = 3
+add_core = LIE
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.3 = { hre = no }
+1444.11.6 = { hre = yes }
+
+1444.11.9 = { 
+    owner = BUR
+    controller = BUR
+
+    add_core = BUR
+    
+    #culture = english
+    #religion = catholic
+    
+}
+

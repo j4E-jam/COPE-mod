@@ -1,0 +1,19 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+
+technology_group = western
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 179	# Bourges
+
+1426.1.1 = {
+	monarch = {
+		name = "Marie"
+		dynasty = "de Valuis"
+		adm = 3
+		dip = 3
+		mil = 0
+		female = yes
+	}
+}

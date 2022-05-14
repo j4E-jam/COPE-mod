@@ -1,0 +1,25 @@
+#2378 - Kratie
+
+owner = MEK
+controller = MEK
+culture = khmer
+religion = dayawism
+capital = "Kratie"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = MEK
+discovered_by = chinese
+discovered_by = indian
+1444.11.9 = {
+    owner = KHM
+    controller = KHM
+    add_core = KHM
+
+    remove_core = MEK
+}
+
+

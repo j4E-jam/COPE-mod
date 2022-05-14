@@ -1,0 +1,17 @@
+#Scotland-Isles
+vassal = {
+	first = SCO
+	second = LOI
+	start_date = 1444.11.9
+	end_date = 1493.1.1
+}
+
+
+
+# The Anglo-Portuguese alliance
+alliance = {
+	first = ENG
+	second = POR
+	start_date = 1444.11.9
+	end_date = 1701.9.1
+}

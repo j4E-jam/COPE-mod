@@ -1,0 +1,43 @@
+#130 - Istria
+
+owner = RIE
+controller = RIE
+culture = slovene
+religion = catholic
+capital = "Pula"
+trade_goods = salt #Accounted for 1/4 of the total Salt imports of Venice
+#trade_goods = naval_supplies #Major Shipbuilding Centre
+base_tax = 2 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = RIE
+
+extra_cost = 8
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+# Holy Roman Empire
+1444.11.3 = { hre = no }
+1444.11.6 = { hre = yes }
+
+
+1444.11.9 = {
+    hre = no
+    owner = VEN
+    controller = VEN
+
+    add_core = VEN
+    
+    #culture = 
+    #religion = 
+    
+}
+

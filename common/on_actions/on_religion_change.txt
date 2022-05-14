@@ -1,0 +1,251 @@
+
+# country
+on_religion_change = {
+	on_religion_change_estate_privileges_effect = yes
+	judaism_on_religion_change_effect = yes
+	###removes catholic modifiers
+		remove_country_modifier = counter_reformation
+		remove_country_modifier = the_statue_in_restraint_of_appeals
+		remove_country_modifier = revocation_of_restraint_of_appeals
+		remove_country_modifier = bavarian_jesuits
+		remove_country_modifier = the_societas_jesu
+		remove_country_modifier = the_declaration_of_indulgence
+		remove_country_modifier = de_heretico_comburendo
+		remove_country_modifier = the_conventicle_act
+	if = {
+		limit = {
+			has_reform = indian_sultanate_reform
+			NOT = { religion_group = muslim }
+		}
+		remove_government_reform = indian_sultanate_reform
+	}
+
+	if = {
+		limit = {
+			has_reform = feudal_theocracy
+			NOT = { religion_group = muslim }
+			NOT = { religion_group = zoroastrian_group }
+		}
+		remove_government_reform = feudal_theocracy
+	}
+
+	if = {
+		limit = {
+			government = native
+			OR = {
+				religion = nahuatl
+				religion = mesoamerican_religion
+				religion = inti
+			}
+		}
+		change_government = monarchy
+		add_government_reform = autocracy_reform
+	}
+
+
+	if = {
+		limit = {
+			has_heir = yes
+		}
+		set_heir_religion = ROOT
+	}
+	if = {
+		limit = {
+			has_regency = no
+		}
+		set_ruler_religion = ROOT
+	}
+	if = {
+		limit = {
+			has_dlc = "Rights of Man"
+			has_consort = yes
+		}
+		set_consort_religion = ROOT
+	}
+	if = {
+		limit = {
+			NOT = { religion = orthodox }
+		}
+		every_known_country = {
+			limit = {
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = closed_down_the_patriarchate
+				}
+			}
+			reverse_remove_opinion = {
+				who = ROOT
+				modifier = closed_down_the_patriarchate
+			}
+		}
+	}
+	if = {
+		limit = {
+			religion = catholic
+			has_ruler_flag = personal_catholic_sympathies
+		}
+		country_event = { id = protestantism_events.19 }
+	}
+	if = {
+		limit = {
+			religion = protestant
+		}
+		set_country_flag = converted_to_protestantism
+	}
+	if = {
+		limit = {
+			religion = hussite
+		}
+		remove_country_modifier = hussite_persecution
+	}
+	if = {
+		limit = { has_country_modifier = bav_religious_mandate_mod }
+		remove_country_modifier = bav_religious_mandate_mod
+	}
+	add_country_modifier = {
+		name = recently_changed_religion_dummy
+		duration = 10
+		hidden = yes
+	}
+	if = {
+		limit = {
+			NOT = { religion_group = muslim }
+			any_owned_province = { has_province_modifier = sufi_shrine }
+		}
+		every_owned_province = {
+			limit = { has_province_modifier = sufi_shrine }
+			remove_province_modifier = sufi_shrine
+		}
+	}
+	if = {
+		limit = {
+			religion_group = african_pagan
+			has_country_modifier = son_fetishism_as_secondary_religion
+		}
+		remove_country_modifier = son_fetishism_as_secondary_religion
+		every_owned_province = {
+			limit = {
+				has_province_modifier = son_fetishism_as_secondary_religion_province
+			}
+			remove_province_modifier = son_fetishism_as_secondary_religion_province
+		}
+	}
+	events = {
+		muslim_school_events.20 #Pick School
+		propagate_religion_events.7 #Propagated Country is now Muslim
+	}
+
+	####################################################
+	#### IV Start
+	####################################################
+	religion_convert_effect_everything = yes #This changed Religious ideaa groups when religion changes
+	####################################################
+	#### IV End
+	####################################################
+}
+
+
+# country.
+on_secondary_religion_change = {
+	# Done from code: add_prestige = -50 (Define: CHANGE_SECONDARY_PRESTIGE_HIT)
+	on_secondary_religion_change_estate_privileges_effect = yes
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_monastic_order }
+		remove_province_modifier = tengri_monastic_order
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_shiite_settled_in_capital }
+		remove_province_modifier = tengri_shiite_settled_in_capital
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_insincere_leadership }
+		remove_province_modifier = tengri_insincere_leadership
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_religious_influx }
+		remove_province_modifier = tengri_religious_influx
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_ruler_questioned }
+		remove_province_modifier = tengri_ruler_questioned
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_strengthened_local_clans }
+		remove_province_modifier = tengri_strengthened_local_clans
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_growing_cities }
+		remove_province_modifier = tengri_growing_cities
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_christian_mission }
+		remove_province_modifier = tengri_christian_mission
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_unchristian_values }
+		remove_province_modifier = tengri_unchristian_values
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_monastic_order }
+		remove_province_modifier = tengri_monastic_order
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = hindufication }
+		remove_province_modifier = hindufication
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_influx_of_monks }
+		remove_province_modifier = tengri_influx_of_monks
+	}
+	every_owned_province = {
+		limit = { has_province_modifier = tengri_abandoning_the_old_ways }
+		remove_province_modifier = tengri_abandoning_the_old_ways
+	}
+	remove_country_modifier = tengri_devout_muslim
+	remove_country_modifier = tengri_confucian_elites_alienated
+	remove_country_modifier = tengri_confucian_titles
+	remove_country_modifier = tengri_traditionalists_strengthened
+	remove_country_modifier = tengri_confucian_nobles
+	remove_country_modifier = tengri_pali_legal_traditions
+	remove_country_modifier = tengri_religious_pilgrimages
+	remove_country_modifier = tengri_monks_in_capital
+	remove_country_modifier = tengri_influx_of_monks
+	remove_country_modifier = tengri_shiite_immigration
+	remove_country_modifier = support_of_the_khojas
+	remove_country_modifier = black_shamanism_modifier
+	remove_country_modifier = tengri_animist_pantheon
+	remove_country_modifier = zoroastrian_traders
+	remove_country_modifier = spread_of_tengri_tea_ceremony
+	remove_country_modifier = tengri_tea_ceremony
+	remove_country_modifier = tengri_japanese_swordsmithing
+	remove_country_modifier = tengri_bow_and_arrow_defended
+	remove_country_modifier = tengri_support_of_shamans
+	remove_country_modifier = tengri_hindu_conflict
+	remove_country_modifier = tengri_hindu_syncretism
+	remove_country_modifier = tengri_devout_christian_ruler
+	remove_country_modifier = tengri_personal_confessor
+	remove_country_modifier = tengri_confucian_administrators
+	remove_country_modifier = tengri_traditional_elites_alienated
+	remove_country_modifier = tengri_jihad
+	remove_country_modifier = tengri_stood_up_for_yassa
+	remove_country_modifier = tengri_sufi_teacher
+	remove_country_modifier = tengri_qadi
+	remove_country_modifier = tengri_religious_influx
+	remove_country_modifier = tengri_ibadi_scholars
+	remove_country_modifier = tengri_clergy_conflicts
+	remove_country_modifier = tengri_shamans_spurned
+	clr_country_flag = khojas_established
+	clr_country_flag = tengri_christian_devout_court
+	clr_ruler_flag = tengri_muslim_ruler_questioned
+	if = {
+		limit = {
+			check_variable = { which = khojas_retained value = 1 }
+		}
+		set_variable = {
+			which = khojas_retained value = 0
+		}
+	}
+}
+
+
+

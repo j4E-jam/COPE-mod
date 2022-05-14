@@ -1,0 +1,21 @@
+government = monarchy
+government_rank = 1
+add_government_reform = holy_state_reform
+
+technology_group = eastern
+primary_culture = cosmopolitan_french
+add_accepted_culture = al_misr_arabic
+religion = catholic
+capital = 4316 #Mansura
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Badouin"
+		dynasty = "Kanal"
+		birth_date = 1419.1.1			
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,4 @@
+government = republic
+government_rank = 1
+add_government_reform = russian_republic_republic
+

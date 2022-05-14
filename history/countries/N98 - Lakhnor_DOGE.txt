@@ -1,0 +1,8 @@
+government = monarchy
+government_rank = 1
+add_government_reform = indian_sultanate_reform
+primary_culture = bengali
+religion = sunni
+technology_group = indian
+capital = 2081 # Lakhnor
+

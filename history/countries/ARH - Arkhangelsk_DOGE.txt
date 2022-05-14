@@ -1,0 +1,8 @@
+government = tribal
+government_rank = 1
+
+technology_group = eastern
+primary_culture = novgorodian
+religion = suomenusko
+capital = 1955	#Kargopol
+

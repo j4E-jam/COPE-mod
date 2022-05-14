@@ -1,0 +1,24 @@
+# 2158 - Shiukwan
+
+owner = YUE
+controller = YUE
+add_core = YUE
+culture = hakka
+religion = mahayana
+capital = "Shiukwan"
+trade_goods = iron
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group
+1444.11.9 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+
+    religion = confucianism
+}

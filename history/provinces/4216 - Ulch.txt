@@ -1,0 +1,23 @@
+#4216 - Ulch
+
+owner = NVK
+controller = NVK
+add_core = NVK
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Ulch"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+
+1444.11.9 = {
+	owner = NHX
+	controller = NHX
+	add_core = NHX
+
+}

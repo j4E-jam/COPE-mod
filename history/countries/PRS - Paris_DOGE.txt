@@ -1,0 +1,19 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = /
+
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 183 # Paris
+
+1444.1.1 = {
+	monarch = {
+		name = "Charles"
+		dynasty = "de Valis"
+  		birth_date = 1403.2.22
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}

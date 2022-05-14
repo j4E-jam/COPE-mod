@@ -1,0 +1,10 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = iqta
+
+primary_culture = persian
+religion = manichean #shiite
+technology_group = muslim
+capital = 432 # Kerman
+##religious_school = ismaili_school
+

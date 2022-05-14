@@ -1,0 +1,229 @@
+restored_hellenic_pantheon = {
+	global_missionary_strength = 0.03
+	tolerance_own = 2
+	tolerance_heathen = 2
+}
+hellenic_zeal = {
+	global_missionary_strength = 0.10
+	tolerance_heathen = -4
+}
+hellenic_zeal_small = {
+	global_missionary_strength = 0.10
+	tolerance_heathen = -3
+	land_morale = 0.05
+}
+##################################################
+# Hellenic Events
+##################################################
+
+offer_to_jupiter = {
+	unjustified_demands = -0.10
+	global_missionary_strength = 0.01
+}
+offer_to_juno = {
+	global_unrest = -1
+	global_missionary_strength = 0.01
+}
+offer_to_mars = {
+	land_morale = 0.10
+	global_missionary_strength = 0.01
+}
+offer_to_minerva = {
+	build_cost = -0.10
+	global_missionary_strength = 0.01
+}
+offer_to_mercury = {
+	merchants = 1
+	global_missionary_strength = 0.01
+}
+offer_to_venus = {
+	heir_chance = 0.3
+	global_missionary_strength = 0.01
+}
+improving_ability = {
+	stability_cost_modifier = 0.10
+}
+improved_ability = {
+	prestige = 0.5
+}
+impious_believer = {
+	global_unrest = 2
+	legitimacy = -1
+}
+
+# Greek ones
+offer_to_zeus = {
+	unjustified_demands = -0.10
+	global_missionary_strength = 0.01
+}
+offer_to_hera = {
+	global_unrest = -1
+	global_missionary_strength = 0.01
+}
+offer_to_ares = {
+	land_morale = 0.10
+	global_missionary_strength = 0.01
+}
+offer_to_athena = {
+	build_cost = -0.10
+	global_missionary_strength = 0.01
+}
+offer_to_hermes = {
+	merchants = 1
+	global_missionary_strength = 0.01
+}
+offer_to_aphrodite = {
+	heir_chance = 0.3
+	global_missionary_strength = 0.01
+}
+
+# Hidden modifiers
+hellenic_festival = {}
+changed_deity_recently = {}
+cynical_believer = {}
+hellenic_crisis = {}
+
+
+#Hellenic Flavour | Neprut
+spreading_hellenic_rituals = {
+	global_missionary_strength = 0.02
+	religion = yes
+}
+
+rome_celebrates = {
+	local_production_efficiency = 0.5
+}
+
+empire_celebrates = {
+	land_morale = 0.05
+}
+
+large_sacrifice = {
+	land_morale = 0.05
+	production_efficiency = 0.05
+}
+
+small_sacrifice = {
+	production_efficiency = 0.05
+}
+
+animal_sacrifice = {
+	land_morale = 0.1
+	production_efficiency = -0.05
+}
+
+rom_human_sacrifice = {
+	land_morale = 0.1
+}
+
+listen_pontiffs = {
+	tolerance_own = 2
+}
+
+ignore_pontiffs = {
+	tolerance_heathen = 1
+}
+
+augurs = {
+	global_unrest = 1
+}
+
+cult_of_jupiter = {
+	global_tax_modifier = 0.05
+}
+
+cult_of_mars = {
+	land_morale = 0.05
+}
+
+cult_of_quirinus = {
+	global_unrest = -0.5
+}
+
+imperial_cult = {
+	legitimacy = 0.1
+}
+
+offensive_fetial = {
+	spy_offence = 0.15
+}
+
+defensive_fetial = {
+	global_spy_defence = 0.15
+}
+
+brethren_harvest = {
+	production_efficiency = 0.05
+}
+
+brethren_famine = {
+	production_efficiency = -0.1
+}
+
+hellenic_conversion_zeal = {
+	global_missionary_strength = 0.05
+	missionaries = 1
+}
+
+
+hellenic_religious_scandal = {
+	local_unrest = 2
+	prestige = -0.1
+	local_missionary_strength = -0.03
+	religion = yes 
+}
+
+# Pontifex Maximus
+
+pontifex_currently_pontifex_maximus_modifier = {
+	global_missionary_strength = 0.03
+	land_morale = 0.1
+	tolerance_own = 1
+	prestige = 1
+
+}
+
+the_first_pontifex_maximus_modifier = {
+	land_morale = 0.05
+	global_missionary_strength = 0.01
+	tolerance_own = 0.5
+	prestige = 0.5
+}
+
+pontifex_recently_asked_forgiveness = {}
+
+
+
+# Sol Invictus
+
+solar_infantry_mod_1 = {
+	discipline = 0.1
+}
+
+solar_infantry_mod_2 = {
+	infantry_power = 0.2
+}
+
+solar_cavalry_mod_1 = {
+	cavalry_shock = 1
+}
+
+solar_cavalry_mod_2 = {
+	cavalry_power = 0.33
+}
+
+solar_artillery_mod_1 = {
+	siege_ability = 0.33
+}
+
+solar_artillery_mod_2 = {
+	artillery_power = 0.15
+}
+
+solar_defense_mod_1 = {
+	defensiveness = 0.33
+}
+
+solar_defense_mod_2 = {
+	hostile_attrition = 3
+}

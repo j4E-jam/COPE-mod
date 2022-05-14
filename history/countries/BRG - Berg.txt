@@ -1,0 +1,15 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+
+primary_culture = hessian
+add_accepted_culture = hannoverian
+religion = waldensian
+technology_group = western
+capital = 84 # Berg
+
+
+
+1444.11.9 = {
+    religion = catholic
+}

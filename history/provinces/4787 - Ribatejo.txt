@@ -1,0 +1,30 @@
+#4787 - Ribatejo
+
+owner = ALN
+controller = ALN
+culture = andalucian
+religion = sunni
+capital = "Santarém"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = ALN
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+
+1444.11.9 = { 
+    owner = POR
+    controller = POR 
+
+    add_core = POR
+    
+    culture = portugese
+    religion = catholic
+    
+}

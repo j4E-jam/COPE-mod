@@ -1,0 +1,27 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_button_land_fl_1"
+		texturefile = "gfx/interface/ideas_EU4/land_fl_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_button_navy_fl_1"
+		texturefile = "gfx/interface/ideas_EU4/navy_fl_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_canal_closed_picture"
+		texturefile = "gfx//interface//ideas_EU4//canal_closed_picture.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_devastation_province_icon"
+		texturefile = "gfx//interface//ideas_EU4//devastation_province_icon.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_flavour_nationalism_zeal_icon"
+		texturefile = "gfx//interface//ideas_EU4//flavour_nationalism_zeal_icon.dds"
+	}
+
+}

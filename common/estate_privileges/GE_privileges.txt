@@ -1,0 +1,737 @@
+
+###############Noble Privileges###############
+
+estate_nobles_diplomatic_privilege = {
+	icon = privilege_diplo_power
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = -0.05
+	is_valid = {
+		has_government_attribute = enables_noble_diplomats
+	}
+	can_select = {
+		has_government_attribute = enables_noble_diplomats
+	}
+	on_granted = {
+		custom_tooltip = GE_diplomatic_privileges_tooltip
+		hidden_effect = {
+			every_neighbor_country = {
+				limit = {
+					NOT = { war_with = ROOT }
+				}
+				add_opinion = { who = ROOT modifier = opinion_diplomatic_positions }
+			}
+		}
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		stability_cost_modifier = 0.10
+	}
+	cooldown_years = 25
+	on_cooldown_expires = {
+		country_event = { id = GE_privileges.2 }
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_nobles_magnate_law_privilege = {
+	icon = privilege_grant_autonomy
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_magnate_law
+	}
+	can_select = {
+		has_government_attribute = enables_magnate_law
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+	modifier_by_land_ownership = {
+		global_unrest = -2.5
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_nobles_timariot_privilege = {
+	icon = privilege_military_power
+	land_share = 0
+	max_absolutism = -10
+	loyalty = 0.05
+	influence = 0.10
+	is_valid = {
+		has_government_attribute = enables_timariots
+	}
+	can_select = {
+		has_government_attribute = enables_timariots
+	}
+	on_granted = {
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 2.5
+		}
+		custom_tooltip = timariot_privileges_tooltip
+		hidden_effect = {
+			capital_scope = {
+				ROOT = {
+					cavalry = PREV
+					cavalry = PREV
+					cavalry = PREV
+					cavalry = PREV
+					cavalry = PREV
+				}
+			}
+		}
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		governing_capacity = 50
+		cavalry_power = 0.05
+	}
+	cooldown_years = 25
+	on_cooldown_expires = {
+		country_event = { id = GE_privileges.3 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_nobles_noble_officer_privilege = {
+	icon = privilege_military_power
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_veteran_general
+	}
+	can_select = {
+		has_government_attribute = enables_veteran_general
+	}
+	on_granted = {
+		custom_tooltip = noble_officer_privilege_tooltip
+		if = {
+			limit = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 60
+				}
+			}
+			create_general = { tradition = 100 }
+		}
+		else_if = {
+			limit = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 50
+				}
+			}
+			create_general = { tradition = 90 }
+		}
+		else_if = {
+			limit = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 40
+				}
+			}
+			create_general = { tradition = 80 }
+		}
+		else_if = {
+			limit = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 30
+				}
+			}
+			create_general = { tradition = 60 }
+		}
+		else_if = {
+			limit = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 20
+				}
+			}
+			create_general = { tradition = 40 }
+		}
+		else = {
+			create_general = { tradition = 20 }
+		}
+		
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	cooldown_years = 20
+	on_cooldown_expires = {
+		country_event = { id = GE_privileges.4 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_nobles_grand_captain_privilege = {
+	icon = privilege_military_power
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_grand_captain
+	}
+	can_select = {
+		has_government_attribute = enables_grand_captain
+	}
+	on_granted = {
+		custom_tooltip = "GE_Grand_Captains_tt"
+		hidden_effect = {
+			every_subject_country = {
+				add_country_modifier = {
+					name = GE_Grand_Captains
+					duration = 9125
+				}
+			}
+		}
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	penalties = {
+		vassal_income = -0.25
+	}
+	benefits = {
+	}
+	cooldown_years = 20
+	on_cooldown_expires = {
+		country_event = { id = GE_privileges.5 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_nobles_call_cortez = {
+	icon = privilege_empty_throne
+	land_share = 0
+	max_absolutism = -15
+	loyalty = 0.00
+	influence = 0.00
+	is_valid = {
+		has_government_attribute = enables_cortes
+	}
+	can_select = {
+		has_government_attribute = enables_cortes
+	}
+	on_granted = {
+		country_event = { id = reform_me_events.1 }
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	penalties = {
+		prestige = -0.5
+	}
+	benefits = {
+	}
+	cooldown_years = 20
+	on_cooldown_expires = {
+		country_event = { id = GE_privileges.6 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_nobles_white_knights = {
+	icon = privilege_military_power
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_white_knights
+	}
+	can_select = {
+		has_government_attribute = enables_white_knights
+	}
+	on_granted = {
+		custom_tooltip = GE_white_knights
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+		cavalry_cost = -0.25
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	conditional_modifier = {
+		trigger = {
+			prestige = 75
+		}
+		modifier = {
+			cavalry_power = 0.15
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_nobles_blood_tax = {
+	icon = privilege_grant_autonomy
+	land_share = 0
+	max_absolutism = -10
+	loyalty = 0.00
+	influence = 0.10
+	is_valid = {
+		has_government_attribute = enables_blood_tax
+	}
+	can_select = {
+		has_government_attribute = enables_blood_tax
+	}
+	on_granted = {
+		custom_tooltip = GE_blood_tax
+	}
+	on_revoked = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+	on_invalid = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+	modifier_by_land_ownership = {
+	}
+	conditional_modifier = {
+		trigger = {
+			calc_true_if = {
+				all_subject_country = {
+					NOT = {
+						is_colonial_nation = yes
+						is_subject_of_type = tributary_state
+					}
+					total_development = 25
+				}
+				amount = 1
+			}
+			NOT = {
+				calc_true_if = {
+					all_subject_country = {
+						NOT = {
+							is_colonial_nation = yes
+							is_subject_of_type = tributary_state
+						}
+						total_development = 25
+					}
+					amount = 2
+				}
+			}
+		}
+		modifier = {
+			global_manpower_modifier = 0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			calc_true_if = {
+				all_subject_country = {
+					NOT = {
+						is_colonial_nation = yes
+						is_subject_of_type = tributary_state
+					}
+					total_development = 25
+				}
+				amount = 2
+			}
+			NOT = {
+				calc_true_if = {
+					all_subject_country = {
+						NOT = {
+							is_colonial_nation = yes
+							is_subject_of_type = tributary_state
+						}
+						total_development = 25
+					}
+					amount = 3
+				}
+			}
+		}
+		modifier = {
+			global_manpower_modifier = 0.10
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			calc_true_if = {
+				all_subject_country = {
+					NOT = {
+						is_colonial_nation = yes
+						is_subject_of_type = tributary_state
+					}
+					total_development = 25
+				}
+				amount = 3
+			}
+			NOT = {
+				calc_true_if = {
+					all_subject_country = {
+						NOT = {
+							is_colonial_nation = yes
+							is_subject_of_type = tributary_state
+						}
+						total_development = 25
+					}
+					amount = 4
+				}
+			}
+		}
+		modifier = {
+			global_manpower_modifier = 0.15
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			calc_true_if = {
+				all_subject_country = {
+					NOT = {
+						is_colonial_nation = yes
+						is_subject_of_type = tributary_state
+					}
+					total_development = 25
+				}
+				amount = 4
+			}
+			NOT = {
+				calc_true_if = {
+					all_subject_country = {
+						NOT = {
+							is_colonial_nation = yes
+							is_subject_of_type = tributary_state
+						}
+						total_development = 25
+					}
+					amount = 5
+				}
+			}
+		}
+		modifier = {
+			global_manpower_modifier = 0.20
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			calc_true_if = {
+				all_subject_country = {
+					NOT = {
+						is_colonial_nation = yes
+						is_subject_of_type = tributary_state
+					}
+					total_development = 25
+				}
+				amount = 5
+			}
+		}
+		modifier = {
+			global_manpower_modifier = 0.25
+		}
+	}
+	penalties = {
+		vassal_income = -0.25
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_nobles_anatolian_theme = {
+	icon = privilege_grant_autonomy
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.00
+	influence = 0.05
+	is_valid = {
+		has_country_flag = GE_restore_the_themes
+	}
+	can_select = {
+		has_country_flag = GE_restore_the_themes
+	}
+	on_granted = {
+		custom_tooltip = GE_anatolian_theme
+		custom_tooltip = GE_anatolian_theme_manpower
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					region = anatolia_region
+				}
+				add_province_modifier = {
+					name = "GE_restored_themes"
+					duration = -1
+				}
+			}
+		}
+	}
+	on_revoked = {
+		
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					region = anatolia_region
+				}
+				remove_province_modifier = GE_restored_themes
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+	on_invalid = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+	modifier_by_land_ownership = {
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = {
+				any_owned_province = {
+					region = anatolia_region
+					devastation = 1
+				}
+			}
+		}
+		modifier = {
+			manpower_recovery_speed = 0.10
+		}
+	}
+	penalties = {
+		state_maintenance_modifier = 0.10
+	}
+	benefits = {
+	}
+	conditional_modifier = {
+	}
+	ai_will_do = {
+		factor = 1000
+	}
+}
+
+estate_nobles_berber_guides = {
+	icon = privilege_grant_autonomy
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_berber_guides
+	}
+	can_select = {
+		has_government_attribute = enables_berber_guides
+	}
+	on_granted = {
+		custom_tooltip = GE_Berber_Guides
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+	}
+	conditional_modifier = {
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+		}
+		modifier = {
+			attrition = -0.15
+		}
+	}
+	penalties = {
+		global_autonomy = 0.025
+	}
+	benefits = {
+		cavalry_cost = -0.10
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+###############Burgher Privileges###############
+
+estate_burghers_town_rights = {
+	icon = privilege_monopoly_of_goods_cloth
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_town_rights
+	}
+	can_select = {
+		has_government_attribute = enables_town_rights
+	}
+	can_select = {
+	}
+	modifier_by_land_ownership = {
+		development_cost = -0.25
+	}
+	on_granted = {
+	}
+	on_invalid = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_burghers_saharan_outposts = {
+	icon = privilege_monopoly_of_goods_cloth
+	land_share = 0
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_saharan_outposts
+	}
+	can_select = {
+		has_government_attribute = enables_saharan_outposts
+	}
+	modifier_by_land_ownership = {
+		trade_steering = 0.5
+	}
+	on_granted = {
+	}
+	on_invalid = {
+	}
+	penalties = {
+	}
+	benefits = {
+		merchants = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_burghers_office_of_chancellor = {
+	icon = privilege_admin_power
+	land_share = 0
+	max_absolutism = -10
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_office_of_chancellor
+	}
+	can_select = {
+		has_government_attribute = enables_office_of_chancellor
+	}
+	on_granted = {
+	}
+	on_invalid = {
+	}
+	penalties = {
+	}
+	benefits = {
+		state_governing_cost = -0.1
+	}
+	conditional_modifier = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+###############Church Privileges###############
+
+estate_church_four_articles_of_prague = {
+	icon = privilege_grant_autonomy
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		has_government_attribute = enables_four_articles 
+	}
+	can_select = {
+		has_government_attribute = enables_four_articles
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	modifier_by_land_ownership = {
+		tolerance_own = 2.5
+		tolerance_heretic = -1.5
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}

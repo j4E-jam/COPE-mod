@@ -1,0 +1,10 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = iqta
+primary_culture = azerbaijani
+add_accepted_culture = persian
+religion = shiite
+technology_group = muslim
+capital = 416	# ardabil
+
+#religious_school = jafari_school

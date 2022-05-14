@@ -1,0 +1,33 @@
+government = monarchy
+government_rank = 1
+
+
+primary_culture = kochi
+religion = hinduism
+technology_group = indian
+capital = 562	# Koch
+add_accepted_culture = bengali
+
+1440.1.1 = {
+	monarch = {
+		name = "Niladhwaj"
+		dynasty = "Khen"
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Chakradhwaj"
+		monarch_name = "Chakradhwaj"
+		dynasty = "Khen"
+		birth_date = 1420.1.1
+		death_date = 1480.1.1
+		claim = 95
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}

@@ -1,0 +1,239 @@
+
+country_decisions = { 
+
+	tge_info_panel = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+            always = yes
+		}
+		
+		effect = {
+			country_event = { id = tge_infopanel.1 }
+		
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+
+	mod_special = {
+		major = yes
+		potential = {
+			ai = no
+			always = no
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+	
+	
+	mod_goods = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+
+
+	# AI building reset. I am assuming there was an issue of timing and AI getting the lack of resources building while still having (or getting) the proper latent building. So Marcin added this decision for AI as to fix the issue and reset the province
+	tge_mod_province_reset = {
+		potential = {
+			ai = yes
+		}
+		
+		allow = {
+			any_owned_province = { 
+				OR = {
+					has_building = off_1
+					has_building = off_2
+					has_building = off_3
+					has_building = off_4
+					has_building = off_5
+				}
+			}
+		}
+		
+		effect = {
+		    
+			random_owned_province = { 
+				limit = {
+					has_building = off_1
+					has_building = cannon_foundry
+				}
+				remove_building = cannon_foundry
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_2
+					has_building = metalworking_workshop
+				}
+				remove_building = metalworking_workshop
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_3
+					has_building = munition_factory
+				}
+				remove_building = munition_factory
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_4
+					has_building = steam_engine_manu
+				}
+				remove_building = steam_engine_manu
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_5
+					has_building = spectacle_factory
+				}
+				remove_building = spectacle_factory
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+
+	tge_mod_resource_lacking = {
+		major = yes
+		potential = {
+			any_owned_province = { 
+				OR = {
+					has_building = off_1
+					has_building = off_2
+					has_building = off_3
+					has_building = off_4
+					has_building = off_5
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = { 
+				superregion = india_superregion
+				superregion = east_indies_superregion
+				superregion = oceania_superregion
+				superregion = china_superregion
+				superregion = europe_superregion
+				superregion = eastern_europe_superregion
+				superregion = tartary_superregion
+				superregion = far_east_superregion
+				superregion = africa_superregion
+				superregion = southern_africa_superregion
+				superregion = south_america_superregion
+				superregion = andes_superregion
+				superregion = north_america_superregion
+				superregion = central_america_superregion
+				superregion = near_east_superregion
+				superregion = persia_superregion
+				
+			}
+			owned_by = ROOT
+			OR = {
+				has_building = off_1
+				has_building = off_2
+				has_building = off_3
+				has_building = off_4
+				has_building = off_5
+			}
+		}
+		allow = {
+			any_owned_province = { 
+				OR = {
+					has_building = off_1
+					has_building = off_2
+					has_building = off_3
+					has_building = off_4
+					has_building = off_5
+				}
+			}
+		}
+		
+		effect = {
+			random_owned_province = { 
+				limit = {
+					has_building = off_1
+					has_building = cannon_foundry
+				}
+				remove_building = off_1
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_2
+					has_building = metalworking_workshop
+				}
+				remove_building = off_2
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_3
+					has_building = munition_factory
+				}
+				remove_building = off_3
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_4
+					has_building = steam_engine_manu
+				}
+				remove_building = off_4
+			}
+			
+			random_owned_province = { 
+				limit = {
+					has_building = off_5
+					has_building = spectacle_factory
+				}
+				remove_building = off_5
+			}
+			hidden_effect = {
+				country_event = { id = New_TradeGood_Events.2 days = 1 }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+}

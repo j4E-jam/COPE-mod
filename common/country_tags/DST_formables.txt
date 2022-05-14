@@ -1,0 +1,34 @@
+CEE = "countries/CelticEmpire.txt"
+LTE = "countries/DOGE_LatinEmpire.txt"
+UAR = "countries/DOGE_UnitedAfricanRepublic.txt" #r/europe
+RCH = "countries/DOGE_RepublicOfChina.txt"
+C99 = "countries/DOGE_NationalistOfChina.txt"
+HEA = "countries/DOGE_HeavenlyKingdom.txt" #r/europe
+PRC = "countries/DOGE_PeopleRepublicOfChina.txt" #r/europe
+NDB = "countries/DOGE_NorthGermanConfederation.txt"
+GRP = "countries/DOGE_GermanRepublic.txt"
+AUE = "countries/DOGE_AustrianEmpire.txt"
+AHE = "countries/DOGE_AustriaHungary.txt"
+BLT = "countries/DOGE_BalticUnion.txt" #AnteBellum
+ILR = "countries/DOGE_Illyria.txt" #AnteBellum
+WEE = "countries/DOGE_Wendish.txt"
+DAE = "countries/DOGE_Danelaw.txt" # Scandinavia Overhaul
+EGP = "countries/DOGE_Ancient_Egypt.txt" #Extended Timeline # Aegyptus
+AYY = "countries/DOGE_AyyubidsME.txt"
+GHA = "countries/DOGE_Ghana.txt" # Viking Shattered # Wagadou
+OCC = "countries/DOGE_Occitania.txt" # Neprut
+AAS = "countries/Australia_Aboriginal_DOGE.txt"
+INT = "countries/DOGE_Intermarium.txt"
+BSP = "countries/DOGE_Bosporus.txt"
+CZS = "countries/DOGE_Czechoslovakia.txt"
+
+# Formables Reworked
+SGF = "countries/South_German_Federation.txt"
+ALP = "countries/Alpland.txt"
+ADR = "countries/Adriatic_Empire.txt"
+CTG = "countries/Carthage.txt"
+KVR = "countries/Kievan_Rus.txt"
+SRB = "countries/Saudi_Arabia.txt"
+TAT = "countries/Tatarstan.txt"
+HIM = "countries/Himalayan_Empire.txt"
+LSE = "countries/Lusitanian_Empire.txt"

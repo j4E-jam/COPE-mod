@@ -1,0 +1,355 @@
+namespace = dse_hellenic_conversion
+namespace = dse_hellenic_flavour
+namespace = dse_invictus_religion_mechanic
+namespace = dse_hellenic_olympic_games
+
+country_event = {
+	id = dse_hellenic_conversion.1
+	title = dse_hellenic_conversion.1.t
+	desc = dse_hellenic_conversion.1.d
+	picture = THEATRE_eventPicture
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_hellenic_conversion.1.o1 # Normal Hellenism
+        country_event = { id = dse_hellenic_conversion.2 }
+	}
+
+	option = {
+        trigger = { NOT = { any_country = { religion = solar_monism } } }
+		name = dse_hellenic_conversion.1.o2 # Sol Invictus
+        country_event = { id = dse_hellenic_conversion.3 }
+	
+	}
+	
+	option = {
+		name = dse_hellenic_conversion.1.exit # Back
+	}
+
+}
+
+# Normal Hellenism
+country_event = {
+	id = dse_hellenic_conversion.2
+	title = dse_hellenic_conversion.2.t
+	desc = dse_hellenic_conversion.2.d
+	picture = MOUNT_OLYMPUS_eventPicture
+    major = yes
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_hellenic_conversion.2.o1 # Accept Conversion
+        change_religion = hellenic_pagan
+        capital_scope = { change_religion = hellenic_pagan }
+
+        add_country_modifier = {
+            name = "hellenic_conversion_zeal"
+            duration = 3650
+        }
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					culture_group = byzantine
+				}
+				country_event = { id = dse_hellenic_conversion.4 days = 30 }
+			}
+
+			custom_tooltip = normal_hellenism_mechanic_tooltip		
+		}
+	}
+
+	#option = {
+	#	name = dse_hellenic_conversion.2.exit # Back
+    #    country_event = { id = dse_hellenic_conversion.1 }
+	#}
+
+}
+
+# Sol Invictus
+country_event = {
+	id = dse_hellenic_conversion.3
+	title = dse_hellenic_conversion.3.t
+	desc = dse_hellenic_conversion.3.d
+	picture = PRAISE_SUN_eventPicture
+    major = yes
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_hellenic_conversion.3.o1 # Accept Conversion
+        change_religion = solar_monism
+		custom_tooltip = invictus_hellenic_to_sol_conversion
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					religion = hellenic_pagan
+				}
+				change_religion = solar_monism
+			}
+		}
+
+        add_country_modifier = {
+            name = "hellenic_conversion_zeal"
+            duration = 3650
+        }	
+
+        custom_tooltip = sol_invictus_mechanic_tooltip
+	}
+
+	#option = {
+	#	name = dse_hellenic_conversion.3.exit # Back
+    #    country_event = { id = dse_hellenic_conversion.1 }
+	#}
+
+}
+
+country_event = { # Event for byzantine culture when someone has revived Hellenism
+	id = dse_hellenic_conversion.4
+	title = dse_hellenic_conversion.4.t
+	desc = dse_hellenic_conversion.4.d
+	picture = MOUNT_OLYMPUS_eventPicture
+    is_triggered_only = yes
+	
+	option = {
+		ai_chance = { factor = 80 }
+		name = dse_hellenic_conversion.4.o1 # I didn't like CURRENT_RELIGION eitherway
+        change_religion = hellenic_pagan
+        capital_scope = { change_religion = hellenic_pagan }
+
+        add_country_modifier = {
+            name = "hellenic_conversion_zeal"
+            duration = 3650
+        }
+
+        custom_tooltip = normal_hellenism_mechanic_tooltip
+	}
+
+	option = {
+		ai_chance = { factor = 20 }
+		name = dse_hellenic_conversion.4.o2 # We shall pass. It died off for a reason.
+		add_prestige = 1
+	}
+
+}
+
+
+# Infantry Tactics
+country_event = {
+	id = dse_invictus_religion_mechanic.1
+	title = dse_invictus_religion_mechanic.1.t
+	desc = dse_invictus_religion_mechanic.1.d
+	picture = PRAISE_SUN_eventPicture
+    major = yes
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_invictus_religion_mechanic.1.o1
+        add_country_modifier = {
+            name = solar_infantry_mod_1
+            duration = 92
+        }
+	}
+	option = {
+		name = dse_invictus_religion_mechanic.1.o2
+        add_country_modifier = {
+            name = solar_infantry_mod_2
+            duration = 365
+        }
+
+	}
+
+	option = {
+		name = dse_invictus_religion_mechanic.999.exit # Back
+        add_church_power = 125
+	}
+
+}
+
+# Cavalry Tactics
+country_event = {
+	id = dse_invictus_religion_mechanic.2
+	title = dse_invictus_religion_mechanic.2.t
+	desc = dse_invictus_religion_mechanic.2.d
+	picture = PRAISE_SUN_eventPicture
+    major = yes
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_invictus_religion_mechanic.2.o1
+        add_country_modifier = {
+            name = solar_cavalry_mod_1
+            duration = 185
+        }
+	}
+	option = {
+		name = dse_invictus_religion_mechanic.2.o2
+        add_country_modifier = {
+            name = solar_cavalry_mod_2
+            duration = 365
+        }
+	}
+
+	option = {
+		name = dse_invictus_religion_mechanic.999.exit # Back
+        add_church_power = 75
+	}
+
+}
+
+# Artillery Tactics
+country_event = {
+	id = dse_invictus_religion_mechanic.3
+	title = dse_invictus_religion_mechanic.3.t
+	desc = dse_invictus_religion_mechanic.3.d
+	picture = PRAISE_SUN_eventPicture
+    major = yes
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_invictus_religion_mechanic.3.o1
+        add_country_modifier = {
+            name = solar_artillery_mod_1
+            duration = 185
+        }
+	}
+	option = {
+		name = dse_invictus_religion_mechanic.3.o2
+        add_country_modifier = {
+            name = solar_artillery_mod_2
+            duration = 185
+        }
+	}
+
+	option = {
+		name = dse_invictus_religion_mechanic.999.exit # Back
+        add_church_power = 75
+	}
+
+}
+
+# Defense Tactics
+country_event = {
+	id = dse_invictus_religion_mechanic.4
+	title = dse_invictus_religion_mechanic.4.t
+	desc = dse_invictus_religion_mechanic.4.d
+	picture = PRAISE_SUN_eventPicture
+    major = yes
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_invictus_religion_mechanic.3.o1
+        add_country_modifier = {
+            name = solar_defense_mod_1
+            duration = 365
+        }
+	}
+	option = {
+		name = dse_invictus_religion_mechanic.3.o2
+        add_country_modifier = {
+            name = solar_defense_mod_2
+            duration = 365
+        }
+	}
+
+	option = {
+		name = dse_invictus_religion_mechanic.999.exit # Back
+        add_church_power = 50
+	}
+
+}
+
+# Naval Tactics # Ignored for now
+country_event = {
+	id = dse_invictus_religion_mechanic.5
+	title = dse_invictus_religion_mechanic.5.t
+	desc = dse_invictus_religion_mechanic.5.d
+	picture = PRAISE_SUN_eventPicture
+    major = yes
+    is_triggered_only = yes
+	
+	option = {
+		name = dse_invictus_religion_mechanic.5.o1
+
+	}
+
+	option = {
+		name = dse_invictus_religion_mechanic.5.exit # Back
+        add_church_power = 25
+	}
+
+}
+
+# Yoinked from Anbennar Harpies
+country_event = {
+	id = dse_invictus_religion_mechanic.6
+	title = dse_invictus_religion_mechanic.6.t
+	desc = dse_invictus_religion_mechanic.6.d
+	picture = PRAISE_SUN_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			harpy_define_raid_target = yes
+		}
+	}
+	
+	after = {
+		hidden_effect = {
+			event_target:sol_raid1 = {
+				clr_province_flag = sol_raid_@ROOT
+			}
+			event_target:sol_raid2 = {
+				clr_province_flag = sol_raid_@ROOT
+			}
+			event_target:sol_raid3 = {
+				clr_province_flag = sol_raid_@ROOT
+			}
+			event_target:sol_raid4 = {
+				clr_province_flag = sol_raid_@ROOT
+			}
+			clr_country_flag = sol_invictus_raid_menu
+		}
+	}
+	
+	option = {
+		name = dse_invictus_religion_mechanic.6.o1
+        ai_chance = { factor = 1 }
+		trigger = { event_target:sol_raid2 = { development = 3 } }
+		goto = sol_raid1
+		event_target:sol_raid1 = {
+			sol_raid_effect = yes
+		}
+	}
+	option = {
+		name = dse_invictus_religion_mechanic.6.o2
+        ai_chance = { factor = 1 }
+		trigger = { event_target:sol_raid2 = { development = 3 } }
+		goto = sol_raid2
+		event_target:sol_raid2 = {
+			sol_raid_effect = yes
+		}
+	}
+	option = {
+		name = dse_invictus_religion_mechanic.6.o3
+        ai_chance = { factor = 1 }
+		trigger = { event_target:sol_raid3 = { development = 3 } }
+		goto = sol_raid3
+		event_target:sol_raid3 = {
+			sol_raid_effect = yes
+		}
+	}
+	option = {
+		name = dse_invictus_religion_mechanic.6.o4
+        ai_chance = { factor = 1 }
+		trigger = { event_target:sol_raid4 = { development = 3 } }
+		goto = sol_raid4
+		event_target:sol_raid4 = {
+			sol_raid_effect = yes
+		}
+	}
+	option = {
+        name = dse_invictus_religion_mechanic.999.exit
+        ai_chance = { factor = 0 }
+		add_church_power = 50
+	}
+}

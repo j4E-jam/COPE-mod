@@ -1,0 +1,26 @@
+#661 - Dali
+
+owner = CDL
+controller = CDL
+add_core = CDL
+culture = bai
+religion = tantra
+capital = "Dali"
+trade_goods = tea
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+
+1444.11.9 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+
+	religion = tantra
+}

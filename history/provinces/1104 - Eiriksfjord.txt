@@ -1,0 +1,30 @@
+#1104 - Eiriksfjord
+
+owner = ICE
+controller = ICE
+add_core = ICE
+culture = vinlandic
+religion = norse_pagan_reformed
+capital = "Eiriksfjord"
+trade_goods = whaling
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 2
+native_hostileness = 9
+
+discovered_by = ICE
+
+
+1444.11.9 = {
+    owner = ---
+    controller = ---
+
+    remove_core = ICE
+    
+    culture = inuit
+    religion = animism
+    is_city = no
+}

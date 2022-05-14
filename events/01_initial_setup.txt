@@ -1,0 +1,708 @@
+custom_tooltip = "default_setup_tt"
+		hidden_effect = {
+			set_global_flag = north_amerindian_removed
+			set_global_flag = central_african_removed
+			country_event = {
+				id = setup_event.23
+				days = 0
+			}
+			country_event = {
+				id = setup_event.24
+				days = 0
+			}
+			regiongroup = {
+				region = {
+					limit = {
+						is_city = yes
+						owner = {
+							religion = totemism
+						}
+					}
+					AAA = {
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = sub_continent_food_center
+								}
+							}
+							set_country_flag = sub_continent_food_center
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = regional_food_center
+								}
+							}
+							set_country_flag = regional_food_center
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = has_estuary
+								}
+							}
+							set_country_flag = has_estuary
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = has_natural_harbour
+								}
+							}
+							set_country_flag = has_natural_harbour
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = has_small_natural_harbour
+								}
+							}
+							set_country_flag = has_small_natural_harbour
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = has_great_natural_harbour
+								}
+							}
+							set_country_flag = has_great_natural_harbour
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = good_natural_place
+								}
+							}
+							set_country_flag = good_natural_place
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = great_natural_place
+								}
+							}
+							set_country_flag = great_natural_place
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = awesome_natural_place
+								}
+							}
+							set_country_flag = awesome_natural_place
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = has_confluence
+								}
+							}
+							set_country_flag = has_confluence
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = favorable_terrain
+								}
+							}
+							set_country_flag = favorable_terrain
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = rugged_terrain
+								}
+							}
+							set_country_flag = rugged_terrain
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = challenging_terrain
+								}
+							}
+							set_country_flag = challenging_terrain
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = ashkenazi_jews
+								}
+							}
+							set_country_flag = ashkenazi_jews
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = tribals_control_province
+								}
+							}
+							set_country_flag = tribals_control_province
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = no_plagues
+								}
+							}
+							set_country_flag = no_plagues
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_flag = no_horses_present
+								}
+							}
+							set_country_flag = no_horses_present
+						}
+						if = {
+							limit = {
+								PREV = {
+									has_province_modifier = oasis_route
+								}
+							}
+							set_country_flag = oasis_route
+						}
+						set_variable = {
+							which = base_food
+							which = PREV
+						}
+						set_variable = {
+							which = cont_id
+							which = PREV
+						}
+						set_variable = {
+							which = continent_food
+							which = PREV
+						}
+						set_variable = {
+							which = continent_food_factor
+							which = PREV
+						}
+						set_variable = {
+							which = continent_food_percent_uneaten
+							which = PREV
+						}
+						set_variable = {
+							which = devPointRuralCur
+							which = PREV
+						}
+						set_variable = {
+							which = devPointTotal
+							which = PREV
+						}
+						set_variable = {
+							which = devPointUpperCur
+							which = PREV
+						}
+						set_variable = {
+							which = devPointUrbanCur
+							which = PREV
+						}
+						set_variable = {
+							which = eats_continent_food
+							which = PREV
+						}
+						set_variable = {
+							which = farm_efficiency
+							which = PREV
+						}
+						set_variable = {
+							which = farm_efficiency_terrain
+							which = PREV
+						}
+						set_variable = {
+							which = farm_efficiency_ducats_invested
+							which = PREV
+						}
+						set_variable = {
+							which = food_per_capita_quality
+							which = PREV
+						}
+						set_variable = {
+							which = ideal_rural_pop
+							which = PREV
+						}
+						set_variable = {
+							which = innate_rural_pop
+							which = PREV
+						}
+						set_variable = {
+							which = innate_rural_pop_base
+							which = PREV
+						}
+						set_variable = {
+							which = innate_rural_pop_region_share
+							which = PREV
+						}
+						set_variable = {
+							which = local_weather_factor
+							which = PREV
+						}
+						set_variable = {
+							which = mine_deposit_current
+							which = PREV
+						}
+						set_variable = {
+							which = mine_deposit_starting
+							which = PREV
+						}
+						set_variable = {
+							which = mine_power
+							which = PREV
+						}
+						set_variable = {
+							which = mine_starting_multiplier
+							which = PREV
+						}
+						set_variable = {
+							which = mine_new_reserves_threshold
+							which = PREV
+						}
+						set_variable = {
+							which = price_of_metal
+							which = PREV
+						}
+						set_variable = {
+							which = price_of_rural_good
+							which = PREV
+						}
+						set_variable = {
+							which = price_of_rural_good_mod
+							which = PREV
+						}
+						set_variable = {
+							which = prov_factor
+							which = PREV
+						}
+						set_variable = {
+							which = prov_id
+							which = PREV
+						}
+						set_variable = {
+							which = prov_radius
+							which = PREV
+						}
+						set_variable = {
+							which = prov_size
+							which = PREV
+						}
+						set_variable = {
+							which = province_plague_immunity
+							which = PREV
+						}
+						set_variable = {
+							which = regional_food_factor
+							which = PREV
+						}
+						set_variable = {
+							which = region_id
+							which = PREV
+						}
+						set_variable = {
+							which = rural_density
+							which = PREV
+						}
+						set_variable = {
+							which = rural_pop
+							which = PREV
+						}
+						set_variable = {
+							which = rural_production_power
+							which = PREV
+						}
+						set_variable = {
+							which = rural_production_power_save
+							which = PREV
+						}
+						set_variable = {
+							which = settlement_score_gravity
+							which = PREV
+						}
+						set_variable = {
+							which = settlement_score_progress
+							which = PREV
+						}
+						set_variable = {
+							which = sr_id
+							which = PREV
+						}
+						set_variable = {
+							which = surplus_food
+							which = PREV
+						}
+						set_variable = {
+							which = surplus_food_save
+							which = PREV
+						}
+						set_variable = {
+							which = tech_admin_level
+							which = PREV
+						}
+						set_variable = {
+							which = timber_province_production
+							which = PREV
+						}
+						set_variable = {
+							which = total_pop
+							which = PREV
+						}
+						set_variable = {
+							which = total_pop_r
+							which = PREV
+						}
+						set_variable = {
+							which = total_surplus_output
+							which = PREV
+						}
+						set_variable = {
+							which = travel_time_terrain_base
+							which = PREV
+						}
+						set_variable = {
+							which = tribal_culture
+							which = PREV
+						}
+						set_variable = {
+							which = tribal_settlement_score
+							which = PREV
+						}
+						set_variable = {
+							which = tribals_ratio
+							which = PREV
+						}
+						set_variable = {
+							which = urban_density
+							which = PREV
+						}
+						set_variable = {
+							which = urban_gravity_total
+							which = PREV
+						}
+						set_variable = {
+							which = upper_pop
+							which = PREV
+						}
+						set_variable = {
+							which = upper_pop_r
+							which = PREV
+						}
+						set_variable = {
+							which = urban_pop
+							which = PREV
+						}
+						set_variable = {
+							which = urban_production_power
+							which = PREV
+						}
+						set_variable = {
+							which = urban_ratio
+							which = PREV
+						}
+						set_variable = {
+							which = wealth_rural_fluid
+							which = PREV
+						}
+						set_variable = {
+							which = wealth_urban_fluid
+							which = PREV
+						}
+						set_variable = {
+							which = x_coord
+							which = PREV
+						}
+						set_variable = {
+							which = y_coord
+							which = PREV
+						}
+						set_variable = {
+							which = year_ticker
+							which = PREV
+						}
+						set_variable = {
+							which = catholic
+							which = PREV
+						}
+						set_variable = {
+							which = orthodox
+							which = PREV
+						}
+						set_variable = {
+							which = protestant
+							which = PREV
+						}
+						set_variable = {
+							which = reformed
+							which = PREV
+						}
+						set_variable = {
+							which = hussite
+							which = PREV
+						}
+						set_variable = {
+							which = gnostic
+							which = PREV
+						}
+						set_variable = {
+							which = chaldean
+							which = PREV
+						}
+						set_variable = {
+							which = coptic
+							which = PREV
+						}
+						set_variable = {
+							which = jewish
+							which = PREV
+						}
+						set_variable = {
+							which = sunni
+							which = PREV
+						}
+						set_variable = {
+							which = shiite
+							which = PREV
+						}
+						set_variable = {
+							which = ibadi
+							which = PREV
+						}
+						set_variable = {
+							which = wahhabi
+							which = PREV
+						}
+						set_variable = {
+							which = druze
+							which = PREV
+						}
+						set_variable = {
+							which = hinduism
+							which = PREV
+						}
+						set_variable = {
+							which = sikhism
+							which = PREV
+						}
+						set_variable = {
+							which = jain
+							which = PREV
+						}
+						set_variable = {
+							which = zoroastrian
+							which = PREV
+						}
+						set_variable = {
+							which = confucianism
+							which = PREV
+						}
+						set_variable = {
+							which = buddhism
+							which = PREV
+						}
+						set_variable = {
+							which = mahayana
+							which = PREV
+						}
+						set_variable = {
+							which = vajrayana
+							which = PREV
+						}
+						set_variable = {
+							which = inti
+							which = PREV
+						}
+						set_variable = {
+							which = nahuatl
+							which = PREV
+						}
+						set_variable = {
+							which = mesoamerican_religion
+							which = PREV
+						}
+						set_variable = {
+							which = totemism
+							which = PREV
+						}
+						set_variable = {
+							which = pantheism
+							which = PREV
+						}
+						set_variable = {
+							which = tengri_pagan_reformed
+							which = PREV
+						}
+						set_variable = {
+							which = shamanism
+							which = PREV
+						}
+						set_variable = {
+							which = animism
+							which = PREV
+						}
+						set_variable = {
+							which = west_african_pagan_reformed
+							which = PREV
+						}
+						set_variable = {
+							which = polynesian_religion
+							which = PREV
+						}
+						set_variable = {
+							which = shinto
+							which = PREV
+						}
+						set_variable = {
+							which = adi_dharam
+							which = PREV
+						}
+						set_variable = {
+							which = hellenic_pagan
+							which = PREV
+						}
+						set_variable = {
+							which = norse_pagan_reformed
+							which = PREV
+						}
+						set_variable = {
+							which = finnish_pagan_reformed
+							which = PREV
+						}
+						set_variable = {
+							which = slavic_pagan_reformed
+							which = PREV
+						}
+						set_variable = {
+							which = baltic_pagan_reformed
+							which = PREV
+						}
+						PREV = {
+							trigger_switch = {
+								on_trigger = has_province_flag
+								tin = {
+									AAA = {
+										set_country_flag = tin
+									}
+								}
+								coal = {
+									AAA = {
+										set_country_flag = coal
+									}
+								}
+								iron = {
+									AAA = {
+										set_country_flag = iron
+									}
+								}
+								salt = {
+									AAA = {
+										set_country_flag = salt
+									}
+								}
+								copper = {
+									AAA = {
+										set_country_flag = copper
+									}
+								}
+								sulphur = {
+									AAA = {
+										set_country_flag = sulphur
+									}
+								}
+								marble = {
+									AAA = {
+										set_country_flag = marble
+									}
+								}
+								gems = {
+									AAA = {
+										set_country_flag = gems
+									}
+								}
+								silver = {
+									AAA = {
+										set_country_flag = silver
+									}
+								}
+								gold = {
+									AAA = {
+										set_country_flag = gold
+									}
+								}
+								lead = {
+									AAA = {
+										set_country_flag = lead
+									}
+								}
+								alum = {
+									AAA = {
+										set_country_flag = alum
+									}
+								}
+								obsidian = {
+									AAA = {
+										set_country_flag = obsidian
+									}
+								}
+							}
+							trigger_switch = {
+								on_trigger = has_province_modifier
+								fur_low = {
+									AAA = {
+										set_country_flag = fur_low
+									}
+								}
+								fur_medium = {
+									AAA = {
+										set_country_flag = fur_medium
+									}
+								}
+								fur_large = {
+									AAA = {
+										set_country_flag = fur_large
+									}
+								}
+							}
+							trigger_switch = {
+								on_trigger = has_province_modifier
+								cod_province_small = {
+									AAA = {
+										set_country_flag = cod_province_small
+									}
+								}
+								cod_province_medium = {
+									AAA = {
+										set_country_flag = cod_province_medium
+									}
+								}
+								cod_province_big = {
+									AAA = {
+										set_country_flag = cod_province_big
+									}
+								}
+							}
+							trigger_switch = {
+								on_trigger = has_province_modifier
+								ivory_low = {
+									AAA = {
+										set_country_flag = ivory_low
+									}
+								}
+								ivory_medium = {
+									AAA = {
+										set_country_flag = ivory_medium
+									}
+								}
+								ivory_large = {
+									AAA = {
+										set_country_flag = ivory_large
+									}
+								}
+							}
+						}
+					}
+					remove_core = owner
+					cede_province = ---
+					remove_core = owner
+					set_local_autonomy = 0
+					remove_province_modifier = martial_law
+					add_base_tax = 1

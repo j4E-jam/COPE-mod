@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+primary_culture = czech
+religion = hussite
+
+capital = 4237 # Olomouc
+technology_group = western
+
+1398.6.9 = {
+	monarch = {
+		name = "Jaromir"
+		dynasty = "von Harrach"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+primary_culture = croatian
+religion = catholic
+add_accepted_culture = dalmatian
+technology_group = eastern
+capital = 131	# Zagreb
+
+1398.6.9 = {
+	monarch = {
+		name = "Kreshmir"
+		dynasty = "Kobilic"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

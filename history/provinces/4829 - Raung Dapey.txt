@@ -1,0 +1,22 @@
+owner = MEK
+controller = MEK
+culture = khmer
+religion = hinduism
+capital = "Raung Dapey"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = MEK
+
+discovered_by = chinese
+discovered_by = indian
+
+1444.11.9 = {
+    owner = KHM
+    controller = KHM
+    add_core = KHM
+
+}

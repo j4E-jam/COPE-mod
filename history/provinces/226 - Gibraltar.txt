@@ -1,0 +1,34 @@
+#226 - Gibraltar
+
+owner = ALC		# Mustapha Sa'd King of Granada
+controller = ALC
+add_core = ALC
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish 
+base_manpower = 1
+capital = "Gibraltar" 
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+
+
+1444.11.9 = { 
+    owner = GRA
+    controller = GRA
+
+    add_core = GRA
+    
+    culture = andalucian
+    religion = sunni
+    
+}

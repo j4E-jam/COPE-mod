@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+capital = 262	# Krakow
+fixed_capital = 262 # Cannot move capital away from this province & no power cost to move to it
+
+1417.12.8 = {
+	monarch = {
+		name = "Ladislau"
+		dynasty = "Krakov"
+		dip = 3
+		adm = 4
+		mil = 5
+	}
+}

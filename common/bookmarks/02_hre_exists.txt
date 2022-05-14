@@ -1,0 +1,22 @@
+bookmark = {
+    name = "bookmark_with_hre"            # i.e. NEWWORLD_NAME, which is localised in a localisation file.
+    desc = "bookmark_with_hre_desc"
+    date = 1444.11.6    # 1444.1.1
+    
+    #center = <province id>          # Optional. Centres the viewport in the selection view on a specific province
+    country = BYZ
+    country = SLO
+    country = BRA
+    country = LUX
+    country = PAP
+    country = KNI
+    country = KOI                # Optional. Adds country shield to the selection view
+    #easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    #default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+    #effect = {
+    #   <effects>
+    #}
+}

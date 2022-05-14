@@ -1,0 +1,27 @@
+# No previous file for Tekrur
+
+culture = fulani
+religion = rooganism #Fetishism
+capital = "Tekrur"
+trade_goods = slaves
+hre = no
+base_tax = 3 
+is_city = yes
+base_production = 3
+owner = FUL
+controller = FUL
+add_core = FUL
+base_manpower = 1
+
+discovered_by = sub_saharan
+
+1444.11.9 = { 
+    owner = ---
+    controller = ---
+
+    remove_core = FUL
+
+    #culture =
+    #religion = 
+    
+}

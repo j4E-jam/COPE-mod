@@ -1,0 +1,8 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = feudalism_reform
+
+primary_culture = prussian
+religion = catholic
+technology_group = western
+capital = 41	# K�nigsberg

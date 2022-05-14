@@ -1,0 +1,255 @@
+country_decisions = {
+
+	construct_kiel_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 20000
+					owns_or_vassal_of = 1775
+					owns_or_vassal_of = 4141
+				}
+			}
+			has_discovered = 1775
+			has_discovered = 4141
+			1775 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = { 
+						type = kiel_canal 
+					}
+				}
+				NOT = { 
+					has_construction = kiel_canal
+				}
+			}
+			4141 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = {
+						type = kiel_canal 
+					}
+				}
+				NOT = { 
+					has_construction = kiel_canal
+				}
+			}
+			adm_tech = 18
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1775
+				province_id = 4141
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 1775
+			owns_or_vassal_of = 4141
+			is_subject = no			
+			adm_tech = 18
+			treasury = 20000
+		}
+		effect = {
+			custom_tooltip = canal_appearing_tooltip
+			hidden_effect = {
+				add_great_project_tier = {
+				type = kiel_canal
+				tier = 3
+				}					
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { treasury = 15000 }
+			}
+		}
+	}
+	
+	construct_suez_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 40000
+					owns_or_vassal_of = 4316
+				}
+			}
+			has_discovered = 4316
+			4316 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = {
+						type = suez_canal 
+					}
+				}
+				NOT = { 
+					has_construction = suez_canal
+				}
+			}
+			adm_tech = 18
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4316
+				province_id = 2315
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 4316
+			owns_or_vassal_of = 2315
+			is_subject = no
+			adm_tech = 22
+			treasury = 40000
+		}
+		effect = {
+			custom_tooltip = canal_appearing_tooltip
+			hidden_effect = {
+				add_great_project_tier = {
+				type = suez_canal
+				tier = 3
+				}					
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { treasury = 30000 }
+			}
+		}
+	}
+	
+	construct_panama_canal = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			OR = {
+				ai = no
+				AND = {
+					treasury = 30000
+					owns_or_vassal_of = 835
+				}
+			}
+			has_discovered = 835
+			835 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = {
+						type = panama_canal 
+					}
+				}
+				NOT = { 
+					has_construction = panama_canal 
+				}
+			}
+			adm_tech = 18
+		}
+		provinces_to_highlight = {
+			province_id = 835
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 835
+			is_subject = no
+			adm_tech = 22
+			treasury = 40000
+		}
+		effect = {
+			custom_tooltip = canal_appearing_tooltip
+			hidden_effect = {
+				add_great_project_tier = {
+				type = panama_canal
+				tier = 3
+				}					
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { treasury = 40000 }
+			}
+		}
+	}
+
+	construct_deux_canal = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			OR = {
+				ai = no
+				AND = {
+					treasury = 50000
+					owns_or_vassal_of = 2753
+				}
+			}
+			has_discovered = 2753
+			2753 = {
+				range = ROOT
+				NOT = { 
+					has_great_project = {
+						type = deux_canal 
+					}
+				}
+				NOT = { 
+					has_construction = deux_canal 
+				}
+			}
+			adm_tech = 24
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2753
+				province_id = 198
+				province_id = 4112
+				province_id = 174
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { vassal_of = ROOT } }
+			}
+		}
+		allow = {
+			owns_or_vassal_of = 2753
+			owns_or_vassal_of = 198
+			owns_or_vassal_of = 4112
+			owns_or_vassal_of = 174
+			is_subject = no
+			adm_tech = 26
+			treasury = 50000
+		}
+		effect = {
+			custom_tooltip = canal_appearing_tooltip
+			hidden_effect = {
+				add_great_project_tier = {
+				type = deux_canal
+				tier = 3
+				}					
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { treasury = 50000 }
+			}
+		}
+	}
+
+}

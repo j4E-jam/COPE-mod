@@ -1,0 +1,35 @@
+country_decisions = {
+	
+	convert_to_kemetism = {
+		major = yes
+		potential = {
+			NOT = { religion = egyptian_religion }
+			NOT = { is_year = 1470 }
+			ai = no
+			is_emperor = no
+			primary_culture = al_misr_arabic
+			NOT = { exists = TUR }
+			NOT = { tag = PAP }
+			NOT = { has_country_flag = converted_to_kemetism_decision }
+            
+		}
+		allow = {
+			NOT = { is_year = 1470 }
+			#NOT = { has_country_flag = converted_to_hellenic_decision }
+			any_owned_province = { religion = egyptian_religion }
+			is_at_war = no
+			is_subject = no
+			is_defender_of_faith = no
+		}
+		effect = {
+			set_country_flag = converted_to_kemetism_decision
+			change_religion = egyptian_religion
+			capital_scope = { change_religion = egyptian_religion }
+
+			add_country_modifier = {
+				name = kemetism_conversion
+				duration = 3650
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+every_country = {
+	limit = {
+        tag = SCA
+	}
+	log = "[This.GetName]	deleted"
+	every_owned_province = {
+		cede_province = TNS
+	}
+}

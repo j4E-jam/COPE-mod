@@ -1,0 +1,97 @@
+﻿l_english:
+ # Missions:
+ madagascar_statebuilding_title: "Create a State"
+ madagascar_statebuilding_desc: "We are a people. Nothing more. Some may deign to call us a tribe, but we know better. However, in an increasingly complex world, we cannot afford to remain defenseless. The Swahili Coast to the west offers lucurative trade opportunities, which we could very well capitalize on. First, we simply need to become a state."
+ madagascar_leadership_title: "Adequate Leadership"
+ madagascar_leadership_desc: "Perhaps one man to lead a nation is not enough. Delegation in the form of advisors must be achieved in order to expedite the process of administration."
+ madagascar_rebirth_title: "Madagascar Rebirth"
+ madagascar_rebirth_desc: "On both a technological and cultural level, Madagascar is not what it used to be. Before we can truly become a modern nation, we must first undergo our own rebirth."
+ madagascar_west_title: "The West Coast"
+ madagascar_west_desc: "On the west lies the Sakalava people, a hardy people of relatively direct Bantu ancestry. The area itself is relatively valuable, and will provide a decent point for ventures on the African continent."
+ madagascar_tides_title: "The Changing Tides"
+ madagascar_tides_desc: "For centuries, our island has allowed for a multicultural people to live in harmony, but unrest and war stirs among the tribes. We prepare to attack or be attacked ourself."
+ madagascar_highlands_title: "The Highlands"
+ madagascar_highlands_desc: "In central Madagascar lies the Highlands: rolling hills, perfect for defense. If we wish to survive on this cruel rock, we must take these fortifications before they are used against us."
+ madagascar_south_title: "Southern Tip"
+ madagascar_south_desc: "The apex of Madagascar lies in the southern tip; a mix of cultures, environments, and peoples. To truly unite Madagascar, this region must be ours."
+ madagascar_europe_title: "European Debacle"
+ madagascar_europe_desc: "We have met people that believe "African Civilization" is an oxymoron, and we are no exception to their dumbfounding rule. Although they are mighty, we can hold strong by preventing them from reaching us."
+ madagascar_north_title: "Northern Tip"
+ madagascar_north_desc: "An exemplary trading center, the northern and eastern coasts of Madagascar would provide us with great wealth if utilized correctly. We should begin taking advantage of the region by first conquering it."
+ madagascar_faith_title: "Solace of Faith"
+ madagascar_faith_desc: "The island of Madagascar hosts a plethora of religions, the majority of which originated here. However, there lies an outlier. On the southeastern shore of our island lies a flicker of a new faith, worshipping one God as the Divine Creator. We know nothing of this, but it sounds interesting. In the meantime, we might as well work towards the establishment of a unified faith."
+ madagascar_zeal_title: "Religious Zeal"
+ madagascar_zeal_desc: "Of course, such a faith cannot stay contained. It must be propagated beyond our borders to ensure its longevity and the salvation of our neighbors. Such a faith is only right."
+ madagascar_swahili_title: "Swahili Commerce"
+ madagascar_swahili_desc: "The Islamic Swahili Coast consistently offers us non-beneficial deals, each amounting to a major detriment to our economy. This cannot stand, thus we must dominate trade and set the rules ourselves."
+
+ # Modifiers:
+ generic_madagascar_tribal_nation_modifier: "Tribal Nation"
+ generic_madagascar_court_modifier: "Expanded Court"
+ generic_madagascar_rebirth_modifier: "True Rebirth"
+ generic_madagascar_ready_modifier: "Ready and Waiting"
+ generic_madagascar_defense_modifier: "Defensive Positions"
+ generic_madagascar_culture_modifier: "Ethnic Mix"
+ generic_madagascar_shipyards_modifier: "Growing Shipyards"
+ generic_madagascar_consolidation_modifier: "Consolidated Religion"
+ generic_madagascar_zeal_modifier: "Commercial Religious Zeal"
+ generic_madagascar_zanzibar_modifier: "Zanzibar Dominance"
+ generic_madagascar_europe_modifier: "Defense of the East"
+
+ # Doge Additions
+
+ madagascar_fortify_land_title: "Fortify the Land"
+ madagascar_fortify_land_desc: "Our new settlements must be defended from incursions. As an island nation, it is a constant danger, and our people must be prepared for the eventuality."
+ madagascar_martial_tradition_title: "Martial Tradition"
+ madagascar_martial_tradition_desc: "Sending officers and soldiers in our subjects to drill them periodically will make sure that we always have a source of able bodies, ready to answer the call to arms."
+
+ madagascar_coastal_appropriation_title: "Coastal Appropriation"
+ madagascar_coastal_appropriation_desc: "Our occupation of our coast is too uneven, which, in the past allowed for the arrival of the multitude of our people. With new threats on the horizon, we must turn our gaze to the sea."
+ madagascar_communal_education_title: "Communal Education"
+ madagascar_communal_education_desc: "Thanks to the lumber from the now cleared Highlands, we have the materials to further our infrastructure efforts, including plans to create facilities for the purposes of educating our people."
+ madagascar_restrict_west_ventures_title: "Restrict West Ventures"
+ madagascar_restrict_west_ventures_desc: "Westerners are perhaps a greater threat to the stability of our nation than we first surmised. Actions must be taken to limit their influence among our subjects immediately."
+
+ madagascar_new_madagascar_title: "New Madagascar"
+ madagascar_new_madagascar_desc: "With the island united under one banner, we have achieved the dream of our forefathers!"
+ madagascar_clear_highlands_title: "Clear Highlands"
+ madagascar_clear_highlands_desc: "It is time to put the great forested hills to good use. Work has begun to clear new areas of land."
+ madagascar_intensify_agriculture_title: "Intensify Agriculture"
+ madagascar_intensify_agriculture_desc: "The central highlands of this island are ideal for wet rice cultivation. We must continue to expand irrigation works."
+ madagascar_madagascan_vanilla_title: "Madagascar Vanilla"
+ madagascar_madagascan_vanilla_desc: "We are one of the foremost suppliers of vanilla in the east, with our goods reaching as far as China with considerable profits. We should structure exports to make them more streamlined, and profitable for us."
+ madagascar_fatherland_finale_title: "Love Thy Fatherland"
+ madagascar_fatherland_finale_desc: "We stand tall amidst the other powers of the world, in that we understand the need for reform, education, as well as the prosperity of our nation. Fitiavana, Tanindrazana, Fandrosoana! ."
+ madagascar_libertalia_title: "Libertalia"
+ madagascar_libertalia_desc: "The fabled pirate utopia of Libertalia is believed to have existed close to Nosy Be, near the coast of Antankara. While claims of its existence raise many eyebrows, we can certainly use its fame to our advantage."
+ madagascar_gold_and_ivory_title: "Gold & Ivory"
+ madagascar_gold_and_ivory_desc: "Now outfitted with an army to match our neighbours and with a powerful economic base, we are ready to join in the battle for sovereignty over the coast."
+ madagascar_swahili_ambitions_title: "Swahili Ambitions"
+ madagascar_swahili_ambitions_desc: "The Kilwans have had a powerful presence in the region for too long. The riches of India and the East African coast shall be ours!"
+ 
+ 
+ madagascar_exploit_hills_title: "Exploit the Hills"
+ madagascar_exploit_hills_desc: "New prospections efforts are underway with the aim of finding new ores in places we once left alone."
+ madagascar_earth_blood_title: "Earth's Blood"
+ madagascar_earth_blood_desc: "Hurrah! Our efforts were not in vain! Miners report new findings of "coal", which will greatly help supply our needs and ushes in better infrastructure soon enough! I am sure of it."
+ madagascar_increased_exports_title: "Increased Exports"
+ madagascar_increased_exports_desc: "The uniqueness of our island and its resources makes even the most travelled of merchants speechless."
+ madagascar_control_channel_title: "Control the Channel"
+ madagascar_control_channel_desc: "From the Gulf of Aden and Coromandel come many traders carrying with them incredible riches. We much insert ourselves more readily in the trade network."
+ madagascar_allow_west_ventures_title: "Allow Western Ventures"
+ madagascar_allow_west_ventures_desc: "Instead of seeing another competitors in those people from the north, we should see potential trade partners with much to give us. Negotiations are already underway for the establishment of European entrepots in our port cities."
+ 
+ madagascar_vast_ocean_title: "The Vast Ocean"
+ madagascar_vast_ocean_desc: "We are surrounded by water on all sides, and there is so much of the world to discover yet. We cannot remain isolated any longer."
+ madagascar_many_isles_title: "Many Isles"
+ madagascar_many_isles_desc: "Virgin islands close to our shores are perfect opportunities for settlements. We should be the first to do so, before someone else comes."
+ madagascar_malagasy_expansion_title: "Malagasy Expansion"
+ madagascar_malagasy_expansion_desc: "From the port of Vatomandry come many men and sailors eager to undertake the voyages to the east, be it for personal gain or adventure."
+
+
+
+
+
+ # Modifiers
+
+ united_madagascar_stands: "United Madagascar Stands"

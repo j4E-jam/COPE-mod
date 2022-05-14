@@ -1,0 +1,21 @@
+government = monarchy
+government_rank = 1
+#add_government_reform = granadan_iqta_reform
+primary_culture = andalucian
+religion = sunni
+#add_accepted_culture = berber
+technology_group = muslim
+capital = 223	# Granada
+
+##religious_school = maliki_school
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad X"
+		dynasty = "Granadid"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}

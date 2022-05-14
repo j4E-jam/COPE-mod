@@ -1,0 +1,22 @@
+government = tribal
+government_rank = 1
+add_government_reform = tribal_despotism
+primary_culture = nubian
+religion = bornoism
+technology_group = east_african
+unit_type = sub_saharan
+capital = 1216	# Tegali
+
+#Sultans of Senar
+
+1444.1.1 = {
+	monarch = {
+		name = "'Amora I Donqas"
+		dynasty = "Senar"
+		adm = 3
+		dip = 4
+		mil = 5
+		leader = {	name = "'Amora I Donqas"       	type = general	fire = 2	shock = 2	manuever = 4	siege = 0}
+	}
+
+}

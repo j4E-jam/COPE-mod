@@ -1,0 +1,21 @@
+# Meath
+government = monarchy
+government_rank = 1
+##add_government_reform = feudalism_reform
+
+technology_group = western
+primary_culture = irish
+religion = norse_pagan_reformed
+capital = 373	# Dublin
+
+1444.11.1 = {
+	monarch = {
+		name = "Amlaib"
+        dynasty = "Conung"
+        birth_date = 1414.1.1
+		adm = 3
+		mil = 3
+		dip = 5
+	}
+}
+

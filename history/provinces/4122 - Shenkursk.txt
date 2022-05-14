@@ -1,0 +1,34 @@
+#4122 - Shenkursk
+
+owner = ARH 
+controller = ARH 
+culture = novgorodian
+religion = suomenusko
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = fur 
+base_manpower = 1
+capital = "Shenkursk"
+is_city = yes
+add_core = ARH
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+
+1444.11.9 = { 
+    owner = NOV
+    controller = NOV
+
+    add_core = NOV
+    
+    #culture =  
+    religion = orthodox
+    
+}
+

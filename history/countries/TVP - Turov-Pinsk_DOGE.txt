@@ -1,0 +1,17 @@
+# Turov-Pinsnk
+government = monarchy
+government_rank = 1
+primary_culture = byelorussian
+religion = orthodox
+technology_group = eastern
+capital = 1941 # Turov
+
+1413.7.3 = {
+	monarch = {
+		name = "Volodar"
+        dynasty = "Glebovich"
+		adm = 3
+        dip = 1
+		mil = 3
+	}
+}

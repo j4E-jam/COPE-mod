@@ -1,0 +1,318 @@
+######################################################
+# Administrative Advisors
+######################################################
+
+######################################################
+subject_taxman = {
+	monarch_power = ADM
+
+	# Bonus
+	vassal_income  = 0.25
+	
+	skill_scaled_modifier = { meritocracy = 0.25 }
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = { NOT = { num_of_subjects = 1 } }
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 10
+			vassal = 2
+		}
+	}
+}
+
+######################################################
+researcher = {
+	monarch_power = ADM
+	
+	# Bonus
+	global_institution_spread = 0.15
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 50
+			is_lacking_institutions = yes
+		}
+	}
+}
+
+######################################################
+anti_corruption_officer = {
+	monarch_power = ADM
+	
+	# Bonus
+	yearly_corruption = -0.1
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+reformist = {
+	monarch_power = ADM
+	
+	# Bonus
+	reform_progress_growth = 0.1
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+missionary_advisor = {
+	monarch_power = ADM
+	
+	# Bonus
+	missionaries = 1
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+# Diplomatic Advisors
+######################################################
+
+######################################################
+ship_inspector = {
+	monarch_power = DIP
+	
+	# Bonus
+	ship_durability = 0.1
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+        #allow_only_male = yes
+        #allow_only_female = yes
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			has_port = no
+		}
+		modifier = {
+			factor = 0
+			owner = { primitives = yes }
+		}
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+######################################################
+navy_organiser = {
+	monarch_power = DIP
+	
+	# Bonus
+	naval_forcelimit_modifier = 0.10
+	
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+######################################################
+naval_surgeon = {
+	monarch_power = DIP
+	
+	# Bonus
+	sailors_recovery_speed = 0.1
+	
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+######################################################
+marketeer = {
+	monarch_power = DIP
+	
+	# Bonus
+	global_trade_power = 0.1
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+mercantile_influencer = {
+	monarch_power = DIP
+	
+	# Bonus
+	trade_steering = 0.15
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+# Military Advisors
+######################################################
+
+######################################################
+supplier = {
+	monarch_power = MIL
+	
+	# Bonus
+	supply_limit_modifier = 0.15
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+        #allow_only_male = yes
+        #allow_only_female = yes
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+fieldSurgeon = {
+	monarch_power = MIL
+	
+	# Bonus
+	manpower_recovery_speed = 0.1
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+        #allow_only_male = yes
+        #allow_only_female = yes
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 100
+			manpower_percentage = 0.5
+		}
+	}
+}
+
+######################################################
+mercenaryLeader = {
+	monarch_power = MIL
+	
+	# Bonus
+	merc_maintenance_modifier = -0.15
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+######################################################
+fortInspector = {
+	monarch_power = MIL
+	
+	# Bonus
+	fort_maintenance_modifier = -0.15
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+lootExpert = {
+	monarch_power = MIL
+	
+	# Bonus
+	loot_amount = 0.33
+
+	skill_scaled_modifier = { meritocracy = 0.25 }
+
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

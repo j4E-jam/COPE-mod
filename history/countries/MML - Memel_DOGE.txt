@@ -1,0 +1,17 @@
+government = monarchy
+government_rank = 1
+primary_culture = lithuanian
+religion = romuva
+technology_group = western
+capital = 40 # Dank Memels
+
+1444.1.1 = {
+	monarch = {
+		name = "Gediminas"
+		dynasty = "Saule"
+		birth_date = 1419.1.1			
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}

@@ -1,0 +1,58 @@
+country_decisions = {
+
+	vinland_nation = {
+		major = yes
+		potential = {
+			OR = {
+				tag = ICE
+				AND = {
+					normal_or_historical_nations = yes
+					was_never_end_game_tag_trigger = yes
+					NOT = { has_country_flag = formed_vinland_flag }
+					NOT = { exists = VIN }
+					religion = norse_pagan_reformed
+					primary_culture = vinlandic
+				}
+				AND = {
+					normal_or_historical_nations = yes
+					was_never_end_game_tag_trigger = yes
+					NOT = { has_country_flag = formed_vinland_flag }
+					NOT = { exists = VIN }
+					religion = norse_pagan_reformed
+					culture_group = scandinavian
+						
+					}
+			}
+
+		}
+		allow = {
+			NOT = { exists = VIN }
+			#NOT = { has_country_flag = formed_vinland_flag } 
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 981	# Taqamuck
+			owns_core_province = 980	# Beothuk
+			owns_core_province = 2573	# Placentia
+		}
+		effect = {
+			change_tag = VIN
+			add_prestige_or_monarch_power = { amount = 15 }
+			set_country_flag = formed_vinland_flag
+			# Events
+			custom_tooltip = tooltip_line_seperate
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			# Modifiers
+			custom_tooltip = tooltip_line_seperate
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

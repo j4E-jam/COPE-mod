@@ -1,0 +1,34 @@
+government = monarchy
+government_rank = 1
+add_government_reform = mandala_reform
+primary_culture = central_thai
+religion = buddhism
+technology_group = chinese
+capital = 600 # Ayutthaya
+
+
+		
+1424.1.1 = {
+	monarch = {
+		name = "Borommaracha II"
+		dynasty = "Suphannaphum"
+		adm = 3
+		dip = 2
+		mil = 4
+		leader = { name = "Borommaracha II"      	type = general	fire = 2	shock = 4	manuever = 3	siege = 1 }
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Trailok"
+		monarch_name = "Trailok"
+		dynasty = "Suphannaphum"
+		birth_date = 1431.1.1
+		death_date = 1488.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}

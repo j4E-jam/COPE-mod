@@ -1,0 +1,19 @@
+government = monarchy
+government_rank = 1
+add_government_reform = kingdom_of_sicily_reform
+
+technology_group = western
+religion = catholic
+primary_culture = neapolitan
+#add_accepted_culture = ?
+capital = 2985 # Capitanata
+
+1414.1.28 = {
+	monarch = { 
+		name = "Lucan I"
+		dynasty = "d'Cap"
+		dip = 2
+		mil = 3
+		adm = 3
+	}
+}

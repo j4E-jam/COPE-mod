@@ -1,0 +1,69 @@
+country_decisions = {
+
+	evenk_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_evenk_nation_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = NVK
+				tag = SOL
+			}
+			NOT = { has_reform = celestial_empire }
+			NOT = { exists = EVK }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1050
+				province_id = 4662
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			#has_institution = feudalism
+			is_at_war = no
+			stability = 1
+			owns_core_province = 1050
+			owns_core_province = 4662
+		}
+		effect = {
+			set_government_rank = 2
+			change_tag = EVK
+			change_government_reform_progress = 100
+			set_global_flag = evenk_nation_formed
+			set_country_flag = formed_evenk_nation_flag
+			# Events
+			custom_tooltip = tooltip_line_seperate
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			# Modifiers
+			custom_tooltip = tooltip_line_seperate
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 600
+	}
+}

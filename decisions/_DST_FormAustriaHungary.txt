@@ -1,0 +1,70 @@
+country_decisions = { # Disabled for now
+
+	austria_hungary_nation = {
+
+		major = yes
+
+		potential = {
+			always = no
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_austria_hungary_flag }
+			OR = {
+				tag = HAB
+				tag = AUE
+			}
+			NOT = { exists = HUN }
+			capital_scope = { is_part_of_hre = no }
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 134	# Wien
+				province_id = 153	# Pest
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+
+		allow = {
+			has_institution = nationalism_institution
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 134	# Wien
+			owns_core_province = 153	# Pest
+			num_of_owned_provinces_with = {
+				value = 5
+				culture = hungarian
+			}
+			NOT = { stability = 0 }
+		}
+
+		effect = {
+			change_tag = AHE
+			add_government_reform = parliamentary_reform
+			set_country_flag = formed_austria_hungary_flag
+			IF = {
+				limit = { NOT = { accepted_culture = hungarian } }
+				add_accepted_culture = hungarian
+			}		
+  
+			add_stability = 1
+			add_prestige_or_monarch_power = { amount = 15 }
+			# Events
+			
+            # Modifiers
+            custom_tooltip = tooltip_line_seperate
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            } 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

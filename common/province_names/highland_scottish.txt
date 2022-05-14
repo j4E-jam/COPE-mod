@@ -1,0 +1,35 @@
+248 = "Lodainn"
+250 = "Siorrachd Pheairt"
+251 = "Siorrachd Obar Dheathain"
+252 = "Inbhir Nis"
+253 = "Na h-Eileanan Siar"
+4364 = "Na h-Eileanan a-staigh"
+369 = "Arcaibh"
+1978 = "Sealtainn"
+4110 = "Cataibh"
+
+373 = "Mide"
+374 = "Laighean"
+375 = "Tuamhain"
+376 = "Chonnacht"
+4119 = "Sligeach"
+4120 = "Cill Dara"
+4121 = "Uladh"
+4378 = "Deas-Mhumhain"
+
+169 = "Arvor"
+170 = "Penn-ar-Bed"
+
+239 = "Caerloyw"
+240 = "Amwythig"
+241 = "Morgannwg"
+242 = "Gwynedd"
+4366 = "Drefaldwyn"
+4369 = "Gaerfyrddin"
+4375 = "Caer"
+
+4365 = "Eilean Mhanainn"
+
+4373 = "Devon"
+
+246 = "Norpanhymbra"

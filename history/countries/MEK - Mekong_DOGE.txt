@@ -1,0 +1,17 @@
+government = monarchy
+government_rank = 1
+primary_culture = khmer
+religion = hinduism
+technology_group = chinese
+capital = 2376 #Prek Pussey
+
+1444.11.1 = {
+	monarch = {
+		name = "Kanthorn"
+		dynasty = "Mekong"
+		birth_date = 1419.1.1			
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}

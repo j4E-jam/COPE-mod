@@ -1,0 +1,110 @@
+polarbear_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		always = no
+	}
+
+	sprite_infantry = {
+		0 = polarbeargfx_INFANTRY_1
+		1 = polarbeargfx_INFANTRY_2
+		2 = polarbeargfx_INFANTRY_3
+		3 = polarbeargfx_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = polarbeargfx_CAVALRY_1
+		1 = polarbeargfx_CAVALRY_2
+		2 = polarbeargfx_CAVALRY_3
+		3 = polarbeargfx_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = polarbeargfx_ARTILLERY_1
+		1 = polarbeargfx_ARTILLERY_2
+		2 = polarbeargfx_ARTILLERY_3
+		3 = polarbeargfx_ARTILLERY_4
+	}
+}
+
+crocodile_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		always = no
+	}
+
+	sprite_infantry = {
+		0 = crocodilegfx_INFANTRY_1
+		1 = crocodilegfx_INFANTRY_2
+		2 = crocodilegfx_INFANTRY_3
+		3 = crocodilegfx_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = crocodilegfx_CAVALRY_1
+		1 = crocodilegfx_CAVALRY_2
+		2 = crocodilegfx_CAVALRY_3
+		3 = crocodilegfx_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = crocodilegfx_ARTILLERY_1
+		1 = crocodilegfx_ARTILLERY_2
+		2 = crocodilegfx_ARTILLERY_3
+		3 = crocodilegfx_ARTILLERY_4
+	}
+}
+
+camel_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		always = no
+	}
+
+	sprite_infantry = {
+		0 = camelgfx_INFANTRY_1
+		1 = camelgfx_INFANTRY_2
+		2 = camelgfx_INFANTRY_3
+		3 = camelgfx_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = camelgfx_CAVALRY_1
+		1 = camelgfx_CAVALRY_2
+		2 = camelgfx_CAVALRY_3
+		3 = camelgfx_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = camelgfx_ARTILLERY_1
+		1 = camelgfx_ARTILLERY_2
+		2 = camelgfx_ARTILLERY_3
+		3 = camelgfx_ARTILLERY_4
+	}
+}
+moose_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		always = no
+	}
+
+	sprite_infantry = {
+		0 = moosegfx_INFANTRY_1
+		1 = moosegfx_INFANTRY_2
+		2 = moosegfx_INFANTRY_3
+		3 = moosegfx_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = moosegfx_CAVALRY_1
+		1 = moosegfx_CAVALRY_2
+		2 = moosegfx_CAVALRY_3
+		3 = moosegfx_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = moosegfx_ARTILLERY_1
+		1 = moosegfx_ARTILLERY_2
+		2 = moosegfx_ARTILLERY_3
+		3 = moosegfx_ARTILLERY_4
+	}
+}

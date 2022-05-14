@@ -1,0 +1,119 @@
+spriteTypes = {
+	# countryview.gfx
+	spriteType = {
+		name = "GFX_icon_religion"
+		texturefile = "gfx/interface/icon_religion.tga"
+		noOfFrames = 75
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_country_icon_religion"
+		texturefile = "gfx//interface//country_icon_religion.dds"
+		noOfFrames = 75
+	}
+
+	spriteType = {
+		name = "GFX_icon_religion_small"
+		texturefile = "gfx/interface/icon_religion_small.tga"
+		noOfFrames = 75
+		loadType = "INGAME"
+	}
+	
+
+
+	# ledger.gfx
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx/interface/icon_religion_small.dds"
+		transparencecheck = yes
+		noOfFrames = 75
+	}
+	
+
+	
+	# provinceview.gfx
+	spriteType = {
+		name = "GFX_province_view_religion"
+		texturefile = "gfx/interface/province_view_religion.tga"
+		noOfFrames = 75
+		loadType = "INGAME"
+		alwaystransparent = yes
+	}
+
+
+
+	# countryreligionview.gfx
+	spriteType = {
+		name = "GFX_hindu_deities_strip"
+		texturefile = "gfx//interface//hindu_deities_strip.dds"
+		noOfFrames = 119
+	}
+
+	spriteType = {
+		name = "GFX_fetishists_strip"
+		texturefile = "gfx//interface//fetishists_strip.dds"
+		noOfFrames = 17
+	}
+
+	spriteType = {
+		name = "GFX_orthodox_icons_strip"
+		texturefile = "gfx//interface//hindu_deities_strip.dds"
+		noOfFrames = 12
+	}
+
+	
+
+
+	# Random
+	spriteType = {
+		name = "GFX_temple_hellenic_pagan"
+		texturefile = "gfx//interface//buildings//latin_temple.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_cathedral_hellenic_pagan"
+		texturefile = "gfx//interface//buildings//latin_cathedral.tga"
+		loadType = "INGAME"
+	}
+
+
+	
+	# Vanilla Religious Schools
+	spriteType = {
+		name = "GFX_icon_muslim_school_hanafi"
+		texturefile = "gfx/interface/religious_schools/icon_muslim_school_hanafi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_hanbali"
+		texturefile = "gfx/interface/religious_schools/icon_muslim_school_hanbali.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_ismaili"
+		texturefile = "gfx/interface/religious_schools/icon_muslim_school_ismaili.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_jafari"
+		texturefile = "gfx/interface/religious_schools/icon_muslim_school_jafari.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_maliki"
+		texturefile = "gfx/interface/religious_schools/icon_muslim_school_maliki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_shafii"
+		texturefile = "gfx/interface/religious_schools/icon_muslim_school_shafii.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_zaidi"
+		texturefile = "gfx/interface/religious_schools/icon_muslim_school_zaidi.dds"
+	}
+
+}

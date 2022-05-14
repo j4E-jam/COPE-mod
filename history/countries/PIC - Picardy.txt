@@ -1,0 +1,20 @@
+government = monarchy
+government_rank = 1
+##add_government_reform = feudalism_reform
+
+primary_culture = wallonian #original cosmo french
+religion = catholic
+technology_group = western
+capital = 89 # picardy
+fixed_capital = 89 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Corneille"
+		dynasty = "de Bourgogne"
+   		birth_date = 1420.7.3
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}

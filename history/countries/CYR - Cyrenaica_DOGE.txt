@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 1
+
+primary_culture = al_misr_arabic
+religion = sunni
+technology_group = muslim
+capital = 356 #Benghazi
+
+1444.1.1 = {
+	monarch = {
+		name = "Zaidaan"
+		dynasty = "al-Cyr"
+		birth_date = 1419.1.1			
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

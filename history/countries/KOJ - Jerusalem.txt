@@ -1,0 +1,19 @@
+government = monarchy
+government_rank = 1
+add_government_reform = holy_state_reform
+primary_culture = cosmopolitan_french
+add_accepted_culture = al_suryah_arabic 
+religion = catholic
+technology_group = eastern
+capital = 379	# Jerusalem
+
+1444.1.1 = {
+	monarch = {
+		name = "Gamelet"
+		dynasty = "Levare"
+		birth_date = 1419.1.1			
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

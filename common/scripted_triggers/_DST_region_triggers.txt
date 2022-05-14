@@ -1,0 +1,180 @@
+belgium_region_trigger = {
+	OR = {
+		province_id = 90
+		province_id = 1865
+		province_id = 91
+		province_id = 92
+		province_id = 1866
+		province_id = 93
+		province_id = 2974
+		province_id = 1744
+	}
+}
+greek_independence_region_trigger = {
+	OR = {
+		province_id = 146
+		province_id = 144
+		province_id = 147
+		province_id = 142
+		province_id = 1773
+		province_id = 145
+		province_id = 3003
+		province_id = 164
+		province_id = 163
+		province_id = 320
+	}
+}
+greek_region_trigger = {
+	OR = {
+		province_id = 146
+		province_id = 144
+		province_id = 147
+		province_id = 142
+		province_id = 1773
+		province_id = 145
+		province_id = 3003
+		province_id = 164
+		province_id = 163
+		province_id = 320
+		province_id = 1853
+		province_id = 148
+		province_id = 149
+		province_id = 151
+		province_id = 1764
+	}
+}
+
+northern_italy_region_trigger = {
+	OR = { 
+		area = piedmont_area
+		area = genoa_area
+		area = venetia_area
+		area = lombardy_area
+		area = po_valley_area
+		area = tuscany_area
+		area = liguria_area
+		area = lazio_area
+		area = central_italy_area
+		area = emilia_romagna_area
+	}
+}
+
+is_madagascan_nation = {
+	OR = {
+		tag = SKA
+		tag = MIR
+		tag = BTS
+		tag = ANT
+		tag = MFY
+
+		tag = MDG
+	}
+}
+
+is_italian_minor = {
+	OR = {
+		tag = AQU
+		tag = BLG
+		tag = MOD
+		tag = PAR
+		tag = PDV
+		tag = SPL
+		tag = SZO
+		tag = URB
+		tag = JAI
+		tag = RAV
+		#from FE
+		tag = LML
+	}
+}
+
+was_italian_minor = {
+	OR = {
+		was_tag = AQU
+		was_tag = BLG
+		was_tag = MOD
+		was_tag = PAR
+		was_tag = PDV
+		was_tag = SPL
+		was_tag = SZO
+		was_tag = URB
+		was_tag = JAI
+		#from FE
+		was_tag = LML
+	}
+}
+
+# This is used to provide that generic mission tree for the coastal or close to it
+is_chinese_coastal = {
+	OR = { 
+		tag = WUU
+		tag = MIN
+		tag = NNG
+		tag = YUE
+		tag = CGS
+		tag = QIC
+		tag = YAN
+		tag = CXI
+		tag = LNG
+		tag = MNG
+	}
+}
+
+
+is_jurchen_minor = {
+	OR = {
+		tag = EJZ
+		tag = MHX
+		tag = MJZ
+		tag = MYR
+		tag = NHX
+	}
+}
+
+was_jurchen_minor = {
+	OR = {
+		was_tag = EJZ
+		was_tag = MHX
+		was_tag = MJZ
+		was_tag = MYR
+		was_tag = NHX
+	}
+}
+
+is_evenki_minor = {
+	OR = {
+		tag = SOL
+		tag = NVK
+		tag = BRT
+		tag = EVK
+	}
+}
+
+was_evenki_minor = {
+	OR = {
+		was_tag = SOL
+		was_tag = NVK
+		was_tag = BRT
+		was_tag = EVK
+	}
+}
+
+is_kamchatkan_minor = {
+	OR = {
+		tag = CHU
+		tag = HOD
+		tag = CHV
+		tag = KMC
+		tag = KCH
+	}
+}
+
+was_kamchatkan_minor = {
+	OR = {
+		was_tag = CHU
+		was_tag = HOD
+		was_tag = CHV
+		was_tag = KMC
+		was_tag = KCH
+	}
+}

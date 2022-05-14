@@ -1,0 +1,30 @@
+#1117 - Futa Jallon
+
+owner = KBU
+controller = KBU
+culture = senegambian
+is_city = yes
+base_manpower = 3
+religion = siguism #Fetishism
+capital = "Timbo"
+trade_goods = ivory
+hre = no
+base_tax = 3 
+base_production = 3
+add_core = KBU #Subject province within the empire
+
+discovered_by = sub_saharan
+
+
+1444.11.9 = { 
+    owner = MAL
+    controller = MAL
+
+    remove_core = KBU
+    add_core = MAL
+
+    
+    #culture =
+    #religion = 
+    
+}

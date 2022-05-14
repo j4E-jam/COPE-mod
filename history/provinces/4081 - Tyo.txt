@@ -1,0 +1,27 @@
+owner = TYO
+controller = TYO
+add_core = TYO
+culture = kongolese
+religion = shamanism #Fetishism
+capital = "Okango"
+trade_goods = spices
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+discovered_by = central_african
+
+1444.11.9 = { 
+    owner = KON
+    controller = KON
+
+    remove_core = TYO
+    add_core = KON
+
+    
+    #culture =
+    #religion = 
+    
+}

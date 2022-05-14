@@ -1,0 +1,33 @@
+# - Touggourt
+
+owner = MZB
+controller = MZB
+culture = berber
+religion = sunni
+capital = "Touggourt"
+trade_goods = spices
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = MZB
+
+
+
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+
+
+1444.11.9 = { 
+    owner = TGT
+    controller = TGT
+    remove_core = MZB
+    add_core = TGT
+    
+    #culture = english
+    #religion = catholic
+    
+}
+

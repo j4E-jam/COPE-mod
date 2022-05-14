@@ -1,0 +1,34 @@
+#111 - Friuli
+
+owner = AQU
+controller = AQU
+culture = venetian 
+religion = catholic 
+base_tax = 5
+base_production = 5    
+trade_goods = wine
+base_manpower = 2    
+capital = "Udine" 
+is_city = yes # Estimated
+add_core = AQU
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+# Holy Roman Empire
+1444.11.3 = { hre = no }
+1444.11.6 = { hre = yes }
+1444.11.9 = {
+    hre = no
+    owner = VEN
+    controller = VEN
+
+    add_core = VEN
+    
+    #culture = 
+    #religion = 
+    
+}
+

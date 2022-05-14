@@ -1,0 +1,42 @@
+#2961 - Lwow
+
+latent_trade_goods = {
+	coal
+}
+
+owner = GLA
+controller = GLA
+capital= "Lwow"
+culture = ruthenian
+religion = orthodox
+trade_goods = dyes #Polish cochineal
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+add_core = GLA
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+center_of_trade = 1
+
+1444.11.9 = { 
+    owner = POL
+    controller = POL
+
+    add_core = POL
+    
+    #culture = english
+    #religion = catholic
+    
+}
+

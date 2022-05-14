@@ -1,0 +1,22 @@
+#732 - Hamgyeong
+
+owner = NKR
+controller = NKR
+culture = korean
+religion = confucianism
+capital = "Hamgyeong"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = NKR
+
+discovered_by = chinese
+discovered_by = nomad_group
+1444.11.9 = {
+	owner = KOR
+	controller = KOR
+	add_core = KOR
+}
