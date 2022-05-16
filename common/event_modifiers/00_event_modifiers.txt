@@ -12322,4 +12322,6 @@ anglican_army = {
 	land_morale = 0.10
 	shock_damage_received = -0.10
 }
-
+pussy = {
+	manpower_recovery_speed = -150
+}
