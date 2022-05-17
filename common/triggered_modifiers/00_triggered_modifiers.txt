@@ -1005,6 +1005,7 @@ pussy = {
 			amount = 2
 			all_ally = {is_great_power = yes}
 		}
+		NOT = {is_year = 1700}
 	}
 	discipline = -100
 	land_morale = -100
@@ -1012,8 +1013,6 @@ pussy = {
 	global_trade_goods_size_modifier = -100
 	global_tax_modifier = -100
 	trade_efficiency = -100
-	prestige = -1000
-	legitimacy = -1000
 }
 
 cuck = {
@@ -1025,6 +1024,7 @@ cuck = {
 			amount = 3
 			all_ally = {ai = no}
 		}
+		NOT = {is_year = 1700}
 	}
 	discipline = -100
 	land_morale = -100
@@ -1032,6 +1032,4 @@ cuck = {
 	global_trade_goods_size_modifier = -100
 	global_tax_modifier = -100
 	trade_efficiency = -100
-	prestige = -1000
-	legitimacy = -1000
 }
