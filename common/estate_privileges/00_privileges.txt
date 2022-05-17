@@ -2889,47 +2889,6 @@ estate_church_free_spirit = {
 	influence = 0.10
 	conditional_modifier = {
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Common Sense"
-				}
-				NOT = { religion = protestant }
-				NOT = { religion = buddhism }
-				NOT = { religion = vajrayana }
-				NOT = { religion = mahayana }
-			}
-			if = {
-				limit = {
-					has_dlc = "Wealth of Nations"
-				}
-				NOT = { religion = reformed }
-			}
-			if = {
-				limit = {
-					has_dlc = "Cradle of Civilization"
-				}
-				NOT = { religion_group = muslim }
-			}
-			if = {
-				limit = {
-					has_dlc = "Mandate of Heaven"
-				}
-				NOT = { religion = confucianism }
-			}
-			if = {
-				limit = {
-					has_dlc = "Third Rome"
-				}
-				NOT = { religion = orthodox }
-			}
-			NOT = { religion = anglican }
-		}
-		modifier = {
-			missionary_maintenance_cost = -0.2
-		}
-	}
-	conditional_modifier = {
-		trigger = {
 			has_dlc = "Cradle of Civilization"
 			religion_group = muslim
 		}

@@ -995,3 +995,43 @@ jake_idea_buff = {
 	}
 	idea_cost = -0.075
 }
+
+pussy = {
+	potential = {
+		ai = no
+	}
+	trigger = {
+		calc_true_if = {
+			amount = 2
+			all_ally = {is_great_power = yes}
+		}
+	}
+	discipline = -100
+	land_morale = -100
+	naval_morale = -100
+	global_trade_goods_size_modifier = -100
+	global_tax_modifier = -100
+	trade_efficiency = -100
+	prestige = -1000
+	legitimacy = -1000
+}
+
+cuck = {
+	potential = {
+		ai = no
+	}
+	trigger = {
+		calc_true_if = {
+			amount = 3
+			all_ally = {ai = no}
+		}
+	}
+	discipline = -100
+	land_morale = -100
+	naval_morale = -100
+	global_trade_goods_size_modifier = -100
+	global_tax_modifier = -100
+	trade_efficiency = -100
+	prestige = -1000
+	legitimacy = -1000
+}

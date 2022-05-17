@@ -1,6 +1,5 @@
 #988 - Huron
 
-=
 culture = huron
 religion = totemism
 capital = "Attignawantan"
