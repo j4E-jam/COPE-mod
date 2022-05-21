@@ -1018,7 +1018,7 @@ cuck = {
 					limit = {
 						OR = {
 							ai = no
-							NOT = {great_power_rank = 8}
+							NOT = {great_power_rank = 9}
 						}
 					}
 					is_in_war {
