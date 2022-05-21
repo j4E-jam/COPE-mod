@@ -996,60 +996,42 @@ jake_idea_buff = {
 	idea_cost = -0.075
 }
 
-pussy = {
-	potential = {
-		ai = no
-	}
-	trigger = {
-		calc_true_if = {
-			amount = 2
-			all_ally = {is_great_power = yes}
-		}
-		NOT = {is_year = 1700}
-		NOT = {
-			all_ally = {
-				OR = {
-					is_great_power = no
-					is_in_war = {
-						participants = ROOT
-					}
-				}
-			}
-		}
-	}
-	discipline = -100
-	land_morale = -100
-	naval_morale = -100
-	global_trade_goods_size_modifier = -100
-	global_tax_modifier = -100
-	trade_efficiency = -100
-}
-
 cuck = {
 	potential = {
 		ai = no
 	}
 	trigger = {
-		calc_true_if = {
-			amount = 3
-			all_ally = {ai = no}
+		OR = {
+			calc_true_if = {
+				amount = 3
+				all_ally = {ai = no}
+			}
+			calc_true_if = {
+				amount = 2
+				all_ally = {NOT = {great_power_rank = 8}}
+			}			
 		}
 		NOT = {is_year = 1700}
 		NOT = {
 			all_ally = {
-				OR = {
-					ai = yes
-					is_in_war = {
+				if = {
+					limit = {
+						OR = {
+							ai = no
+							NOT = {great_power_rank = 8}
+						}
+					}
+					is_in_war {
 						participants = ROOT
 					}
 				}
 			}
 		}
 	}
-	discipline = -100
-	land_morale = -100
-	naval_morale = -100
-	global_trade_goods_size_modifier = -100
-	global_tax_modifier = -100
-	trade_efficiency = -100
+	discipline = -0.20
+	land_morale = -0.40
+	naval_morale = -0.40
+	global_trade_goods_size_modifier = -0.25
+	global_tax_modifier = -0.50
+	trade_efficiency = -0.50
 }
