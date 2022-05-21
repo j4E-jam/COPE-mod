@@ -969,11 +969,11 @@ judaism_yom_kippur_aspect_defensive_war_modifier = {
 jake_monarch_buff = {
 	potential = {
 		government = monarchy
-		NOT = { is_emperor_of_china = yes }
+		NOT = {is_emperor_of_china = yes}
 	}
 	trigger = {
 		government = monarchy
-		NOT = { is_emperor_of_china = yes }
+		NOT = {is_emperor_of_china = yes}
 	}
 	monarch_admin_power = 1
 	monarch_diplomatic_power = 1
@@ -987,11 +987,11 @@ jake_monarch_buff = {
 jake_idea_buff = {
 	potential = {
 		current_age = age_of_discovery
-		NOT = { is_emperor_of_china = yes }
+		NOT = {is_emperor_of_china = yes}
 	}
 	trigger = {
 		current_age = age_of_discovery
-		NOT = { is_emperor_of_china = yes }
+		NOT = {is_emperor_of_china = yes}
 	}
 	idea_cost = -0.075
 }

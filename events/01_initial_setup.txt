@@ -706,3 +706,6 @@ custom_tooltip = "default_setup_tt"
 					set_local_autonomy = 0
 					remove_province_modifier = martial_law
 					add_base_tax = 1
+				}
+			}
+		}
