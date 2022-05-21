@@ -1008,7 +1008,7 @@ cuck = {
 			}
 			calc_true_if = {
 				amount = 2
-				all_ally = {NOT = {great_power_rank = 8}}
+				all_ally = {NOT = {great_power_rank = 9}}
 			}			
 		}
 		NOT = {is_year = 1700}
