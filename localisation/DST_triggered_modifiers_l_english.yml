@@ -5,7 +5,8 @@
  first_diplo_relations: "1470 Diplomatic Relations"
  second_diplo_relations: "1500 Diplomatic Relations"
  pussy: "You are a pussy"
- cuck: "You are a cuckold"
+ cuck: "Alliance Rule Penalty"
+ cuck_desc: "You are over either your regular alliance limit or Great Power alliance limit. Remove an alliance to remove the penalty."
 
  # Absolutism Liberty Desire
  absolutism_liberty_desire_1: "Absolutism: Liberty Desire I"
