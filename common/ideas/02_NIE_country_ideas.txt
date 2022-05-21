@@ -12035,42 +12035,44 @@ SPA_POR_ideas = { #Portuguese Version
 }
 SPA_CAS_ideas = { #Castilian Version
 	start = {
+		global_colonial_growth = 25
 		land_morale = 0.15
-		artillery_fire = 1
 	}
-	
+
 	bonus = {
-		discipline = 0.05
+		yearly_absolutism = 1
 	}
-	
+
 	trigger = {
 		tag = SPA
+		primary_culture = castillian
 	}
-	free = yes		#will be added at load.
+	free = yes
 
-	devout_catholisism = {
-		papal_influence = 2
+	spa_influences_of_catholicism = { #Same for all of them
+		tolerance_own = 1
+		papal_influence = 1
 	}
-	inter_caetera = {
+	cas_the_inquisition = {
+		global_missionary_strength = 0.02
+	}
+	spa_high_seas_fleet = { #Same for all of them
+		naval_forcelimit_modifier = 0.25
+		ship_durability = 0.10
+	}
+	cas_reformation_of_cabildos = { 
+		global_unrest = -1
+	}
+	spa_strong_colonial_authority = { #Same for all of them
+		global_tariffs = 0.10
+		reduced_liberty_desire = 10
+	}
+	cas_far_reaching_spanish_people = {
 		idea_claim_colonies = yes
 		colonists = 1
 	}
-	gold_fleet = {
-		naval_forcelimit_modifier = 0.25
-	}
-	spanish_armada = {
-		heavy_ship_power = 0.1
-		leader_naval_manuever = 1
-	}
-	spa_casa_de_contracion = {
-		envoy_travel_time = -0.33
-		global_tariffs = 0.15
-	}
-	spa_cortes = { 
-		possible_dip_policy = 1
-	}
-	siglo_de_oro = {
-		prestige = 1
+	spa_tercio_reformation = { #Same for all of them
+		discipline = 0.05
 	}
 }
 SPA_LON_ideas = { #Leonese Version
@@ -14192,13 +14194,13 @@ FRA_ideas = {
     convening_of_the_estates_general = {
 		production_efficiency = 0.15
 		global_prov_trade_power_modifier = 0.1
+    } 
+	trading_colonies_instead = {
+		native_uprising_chance = -0.75
+		native_assimilation = 0.75
     }
 	staying_power_of_france = {
 		land_morale = 0.2
-    }
-    trading_colonies_instead = {
-		native_uprising_chance = -0.75
-		native_assimilation = 0.75
     }
     liberty_egalite_fraternity = {
 		tolerance_own = 2
