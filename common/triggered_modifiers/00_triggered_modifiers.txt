@@ -1036,14 +1036,16 @@ op_region_debuff = {
 		ai = no
 	}
 	trigger = {
-		tag = TUR
-		tag = RUM
-		tag = RUS
-		tag = RRR
-		tag = ITA
+		OR = {
+			tag = TUR
+			tag = RUM
+			tag = RUS
+			tag = RRR
+			tag = ITA
+		}
+		monthly_income = 150
 	}
-
-	build_cost = 0.075
+	build_cost = 0.10
 }
 
 minor_nation_buff = {
@@ -1052,13 +1054,16 @@ minor_nation_buff = {
 		primitives = no
 	}
 	trigger = {
-		NOT = {
+			NOT = {
+				is_great_power = yes
+			}
 			OR = {
 				development = 150
 				num_of_provinces_in_states = 10
-				is_great_power = yes
+				NOT = {
+					monthly_income = 25
+				}
 			}
-		}
 	}
 	advisor_cost = -0.20
 	global_manpower_modifier = 0.10
@@ -1078,6 +1083,9 @@ regional_power_buff = {
 		OR = {
 			development = 300
 			num_of_provinces_in_states = 20
+			NOT = {
+				monthly_income = 50
+			}
 		}
 	}
 	land_maintenance_modifier = -0.05
@@ -1091,14 +1099,24 @@ large_power_debuff = {
 		ai = no
 	}
 	trigger = {
-		AND = {
-			development = 600
-			is_great_power = yes
-			monthly_income = >60
-		}
-		
+		development = 900
+		is_great_power = yes
+		monthly_income = 200
 	}
 	build_cost = 0.05
+	global_regiment_cost = 0.05
+}
 
-
+hegemon_debuff = {
+	potential = {
+		ai = no
+	}
+	trigger = {
+		development = 1200
+		is_great_power = yes
+		is_hegemon = yes
+		monthly_income = 300
+	}
+	build_cost = 0.15
+	global_regiment_cost = 0.10
 }

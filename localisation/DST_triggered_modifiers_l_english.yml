@@ -4,6 +4,16 @@
  anglican_army_aspect: "Anglican Militarization"
  cuck: "Alliance Rule Penalty"
  cuck_desc: "You are over either your regular alliance limit or Great Power alliance limit. Remove an alliance to remove the penalty."
+ op_region_debuff: Italy/Ottomans/Russia Balancing
+ op_region_debuff_desc: "Whether it is the expanses of Russian forest and steppe, the many autonomous Turkish beyliks, or the plethora of recently unified Italian city-states, your burgeoning empire is struggling to efficiently build."
+ minor_nation_buff: "Minor Nation Status"
+ minor_nation_buff_desc: "Our nation's administration is much more effective due to our limited size."
+ regional_power_buff: "Regional Power Status"
+ regional_power_buff_desc: "Our nation has become a power to be reckoned with in the region due to our economic and military might."
+ large_power_debuff: "Major Nation Status"
+ large_power_debuff_desc: "Our nation's administration is strained by our considerable empire's size and populace. As such, we will suffer inefficiencies when it comes to construction and recruitment."
+ hegemon_debuff: "Hegemonic Power Status"
+ hegemon_debuff_desc: "Our nation has achieved hegemonic dominance on the world stage! Our administration struggles to properly govern and oversee the vast entirety of our empire. As such, we will suffer inefficiencies when it comes to construction and recruitment."
 
  # Absolutism Liberty Desire
  absolutism_liberty_desire_1: "Absolutism: Liberty Desire I"
