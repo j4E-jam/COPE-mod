@@ -1030,3 +1030,75 @@ cuck = {
 	}
 	prestige_decay = 0.01
 }
+
+op_region_debuff = {
+	potential = {
+		ai = no
+	}
+	trigger = {
+		tag = TUR
+		tag = RUM
+		tag = RUS
+		tag = RRR
+		tag = ITA
+	}
+
+	build_cost = 0.075
+}
+
+minor_nation_buff = {
+	potential = {
+		ai = no
+		primitives = no
+	}
+	trigger = {
+		NOT = {
+			OR = {
+				development = 150
+				num_of_provinces_in_states = 10
+				is_great_power = yes
+			}
+		}
+	}
+	advisor_cost = -0.20
+	global_manpower_modifier = 0.10
+	land_maintenance_modifier = -0.10
+	build_cost = -0.10
+}
+
+regional_power_buff = {
+	potential = {
+		ai = no
+		primitives = no
+	}
+	trigger = {
+		NOT = {
+			is_great_power = yes
+		}
+		OR = {
+			development = 300
+			num_of_provinces_in_states = 20
+		}
+	}
+	land_maintenance_modifier = -0.05
+	prestige = 0.25
+	global_autonomy = -0.05
+	drill_decay_modifier = -0.25
+}
+
+large_power_debuff = {
+	potential = {
+		ai = no
+	}
+	trigger = {
+		AND = {
+			development = 600
+			is_great_power = yes
+			monthly_income = >60
+		}
+		
+	}
+	build_cost = 0.05
+
+
+}
