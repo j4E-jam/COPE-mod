@@ -512,7 +512,7 @@ cannon_foundry = {
 
 
 metalworking_workshop = {
-	cost = 2000
+	cost = 1500
 	time = 12
 
 	build_trigger = {
@@ -775,7 +775,7 @@ munition_factory = {
 
 
 wood_workshop = {
-	cost = 1000
+	cost = 500
 	time = 12
 
 	build_trigger = {
@@ -832,7 +832,7 @@ wood_workshop = {
 }
 
 leather_workshop = {
-	cost = 1000
+	cost = 500
 	time = 12
 	
 	build_trigger = {
@@ -889,7 +889,7 @@ leather_workshop = {
 
 
 sculpture_workshop = {
-	cost = 1000
+	cost = 1500
 	time = 12
 	
 	build_trigger = {
@@ -948,7 +948,7 @@ sculpture_workshop = {
 
 
 jewellery_workshop = {
-	cost = 2000
+	cost = 2500
 	time = 24
 
 	build_trigger = {
@@ -1120,7 +1120,7 @@ steam_factory = {
 }
 
 steam_engine_manu = {
-	cost = 2000
+	cost = 3000
 	time = 12
 	
 	build_trigger = {
@@ -1278,7 +1278,7 @@ steam_engine_manu = {
 
 
 mine = {
-	cost = 5000
+	cost = 3500
 	time = 24
 	
 	
@@ -1503,7 +1503,7 @@ spectacle_factory = {
 #}
 
 cheese_workshop = {
-	cost = 1000
+	cost = 500
 	time = 12
 	
 	build_trigger = {

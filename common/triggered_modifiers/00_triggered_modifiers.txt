@@ -1028,10 +1028,5 @@ cuck = {
 			}
 		}
 	}
-	discipline = -0.20
-	land_morale = -0.40
-	naval_morale = -0.40
-	global_trade_goods_size_modifier = -0.25
-	global_tax_modifier = -0.50
-	trade_efficiency = -0.50
+	prestige_decay = 0.01
 }

@@ -11,6 +11,7 @@ courthouse = {
 	modifier = {
 		local_state_maintenance_modifier = -0.1
 		local_governing_cost = -0.1
+		allowed_num_of_buildings = 1
 	}
 	on_built = {
 		add_development_from_building = {
@@ -183,6 +184,7 @@ town_hall = {
 		local_autonomy = -0.05
 		local_monthly_devastation = -0.05
 		local_governing_cost = -0.15
+		allowed_num_of_buildings = 1
 	}
 
 	on_built = {
@@ -351,6 +353,7 @@ government_lvl_3 = {
 		local_autonomy = -0.1
 		local_monthly_devastation = -0.1
 		local_governing_cost = -0.2
+		allowed_num_of_buildings = 1
 	}
 
 	on_built = {
@@ -441,6 +444,7 @@ government_lvl_4 = {
 		local_autonomy = -0.15
 		local_monthly_devastation = -0.15
 		local_governing_cost = -0.25
+		allowed_num_of_buildings = 1
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
