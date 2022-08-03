@@ -1043,7 +1043,7 @@ op_region_debuff = {
 			tag = RRR
 			tag = ITA
 		}
-		monthly_income = 150
+		monthly_income = 250
 	}
 	build_cost = 0.10
 }
@@ -1057,12 +1057,10 @@ minor_nation_buff = {
 			NOT = {
 				is_great_power = yes
 			}
-			OR = {
-				development = 150
-				num_of_provinces_in_states = 10
-				NOT = {
-					monthly_income = 25
-				}
+			development = 150
+			num_of_provinces_in_states = 10
+			NOT = {
+				monthly_income = 25
 			}
 	}
 	advisor_cost = -0.20
@@ -1079,14 +1077,13 @@ regional_power_buff = {
 	trigger = {
 		NOT = {
 			is_great_power = yes
-		}
-		OR = {
+			}
 			development = 300
 			num_of_provinces_in_states = 20
+			monthly_income = 50
 			NOT = {
 				monthly_income = 50
 			}
-		}
 	}
 	land_maintenance_modifier = -0.05
 	prestige = 0.25
