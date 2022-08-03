@@ -307,6 +307,7 @@ administrative_ideas = {
 	}
 	organised_mercenary_recruitment = {
 		# MECHANIC build_cost_in_subject_nation = -0.25
+		build_cost = -0.05
 	}
 	administrative_efficiency_idea = {
 		advisor_pool = 1
@@ -506,7 +507,7 @@ humanist_ideas = {
 #####################################
 
 ########################################################
-####### Judiciary / Justiz
+####### Judiciary (Jurisprudence) / Justiz
 ########################################################
 
 
@@ -527,10 +528,10 @@ justiz0 = {
 		meritocracy = 1
 	}
 	justiz2 = {
-		yearly_corruption = -0.1
+		yearly_corruption = -0.15
 	}
 	justiz3 = {
-		idea_cost = -0.05
+		idea_cost = -0.035
 		imperial_authority = 0.1
 	}
 
@@ -539,7 +540,7 @@ justiz0 = {
 	}
 
 	justiz5 = {
-		interest = -0.5
+		interest = -0.75
 	}
 	justiz6 = {
 		core_creation = -0.1
