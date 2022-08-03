@@ -1611,6 +1611,14 @@ country_decisions = { # THIS IS DISABLED AND MADE INTO AN EVENT
 									province_id = 371
 									province_id = 1029
 									province_id = 4737
+									province_id = 252
+									province_id = 92
+									province_id = 202
+									province_id = 133
+									province_id = 2348
+									province_id = 411
+									province_id = 1777
+									province_id = 1966
 								}
 							}
 							
