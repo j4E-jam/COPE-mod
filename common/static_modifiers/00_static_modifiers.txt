@@ -1191,19 +1191,21 @@ in_golden_era = {
 
 absolutism = {
 	# Bonus
-	discipline = 0.075
+	discipline = 0.10
 	administrative_efficiency = 0.3
+	global_tax_modifier = 0.10
+	global_regiment_cost = -0.10
 	core_decay_on_your_own = -0.25
-	harsh_treatment_cost = -0.3
-	advisor_cost = -0.3
+	harsh_treatment_cost = -0.5
+	advisor_cost = -0.4
 	technology_cost = -0.1
-	legitimacy = 0.5
+	legitimacy = 1
 	devotion = 1
-	prestige = 1
+	prestige = 2
 
 	# Negative
-	global_unrest = 4
-	years_of_nationalism = 5
+	global_unrest = 2
+	years_of_nationalism = -5
 	republican_tradition = -1
 	#Triggered modifier for liberty_desire increase
 
@@ -1397,28 +1399,30 @@ drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
 ##################################################################################################
 recruitment_sabotaged = {
 	manpower_recovery_speed = -0.2
+	land_forcelimit_modifier = -0.05
 	sailors_recovery_speed = -0.2
+	naval_forcelimit_modifier = -0.10
 }
 
 merchants_slandered = {
-	global_trade_power = -0.1
+	global_trade_power = -0.20
 }
 
 discontent_sowed = {
-	global_unrest = 2
-	legitimacy = -1
-	republican_tradition = -0.2
-	devotion = -1
+	global_unrest = 4
+	legitimacy = -1.5
+	republican_tradition = -0.3
+	devotion = -1.5
 	horde_unity = -1
 	meritocracy = -0.5
 }
 
 reputation_sabotaged = {
-	diplomatic_reputation = -3
+	diplomatic_reputation = -4
 }
 
 corrupt_officials = {
-	yearly_corruption = 0.1
+	yearly_corruption = 0.3
 }
 
 scaled_trade_league_leader = { #scaled by number of members
