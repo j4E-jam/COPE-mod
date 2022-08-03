@@ -28,7 +28,7 @@
 # Tier 1, 15th Century Buildings
 ################################################
 marketplace = {
-	cost = 200
+	cost = 150
 	time = 12
 
 	modifier = {
@@ -124,7 +124,7 @@ marketplace = {
 }
 
 workshop = {
-	cost = 150
+	cost = 120
 	time = 12
 	modifier = {
 		local_production_efficiency = 0.25
@@ -673,7 +673,7 @@ barracks = {
 }
 
 shipyard = {
-	cost = 200
+	cost = 150
 	time = 12
 	build_trigger = {
 		has_port = yes
@@ -856,7 +856,7 @@ coastal_defence = {
 ################################################
 
 dock = {
-	cost = 200
+	cost = 150
 	time = 12
 	build_trigger = {
 		has_port = yes
@@ -2008,7 +2008,7 @@ stock_exchange = {
 }
 
 counting_house = {
-	cost = 500
+	cost = 300
 	time = 18
 
 	make_obsolete = workshop
