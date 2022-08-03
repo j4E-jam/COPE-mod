@@ -280,6 +280,12 @@ offensive_ideas = {
 	bonus = {
 		land_attrition = -0.1
 	}
+		trigger = {
+		NOT = {
+			#has_idea_group = offensive_ideas
+			has_idea_group = defensive_ideas 
+			}
+		}
 
 	bayonet_leaders = {
 		leader_land_shock = 1
@@ -380,6 +386,12 @@ defensive_ideas = {
 	bonus = {
 		hostile_attrition = 1
 	}
+		trigger = {
+		NOT = {
+			#has_idea_group = defensive_ideas
+			has_idea_group = offensive_ideas 
+			}
+		}
 
 	battlefield_commisions = {
 		army_tradition = 0.5
