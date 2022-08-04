@@ -1054,14 +1054,12 @@ minor_nation_buff = {
 		primitives = no
 	}
 	trigger = {
-			NOT = {
-				AND = {
+				OR = {
 					is_great_power = yes
 					total_development = 150
 					num_of_provinces_in_states = 10
 					monthly_income = 25
 				}
-			}
 	}		
 	advisor_cost = -0.20
 	global_manpower_modifier = 0.10
@@ -1076,11 +1074,11 @@ regional_power_buff = {
 	}
 	trigger = {
 		NOT = {
-			AND = {
+			OR = {
 				is_great_power = yes
 				total_development = 300
 				num_of_provinces_in_states = 20
-				monthly_income = 50
+				monthly_income = 50	
 			}
 		}
 		monthly_income = 25
