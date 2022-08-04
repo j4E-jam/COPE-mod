@@ -1,10 +1,12 @@
 ﻿l_english:
- jake_monarch_buff: "Monarch Buff"
+ jake_monarch_buff: "Monarchy Point Boost"
+ jake_monarch_buff_desc: "Adds an additional +1 to all three monarch stats. Added to help balance mana point generation between republics and monarchies."
  jake_idea_buff: "Idea Cost Buff"
+ jake_idea_buff_desc: "A limited boost given to help players manage acquiring both new technology and new ideas."
  anglican_army_aspect: "Anglican Militarization"
  cuck: "Alliance Rule Penalty"
  cuck_desc: "You are over either your regular alliance limit or Great Power alliance limit. Remove an alliance to remove the penalty."
- op_region_debuff: Italy/Ottomans/Russia Balancing
+ op_region_debuff: "Italy, Ottomans, and Russia Balancing"
  op_region_debuff_desc: "Whether it is the expanses of Russian forest and steppe, the many autonomous Turkish beyliks, or the plethora of recently unified Italian city-states, your burgeoning empire is struggling to efficiently build."
  minor_nation_buff: "Minor Nation Status"
  minor_nation_buff_desc: "Our nation's administration is much more effective due to our limited size."
