@@ -22,6 +22,8 @@
  DEFINE_ADVISOR2:3 "Gain a skill $SKILL|Y$ $TYPE$ \n\n($EFFECT$)\n\n$CULTURE_TEXT$$RELIGION_TEXT$$LOCATION$."
 
  # Other
+ offensive_ideas:0 "§BOffensive Ideas§!"
+ defensive_ideas:0 "§BDefensive Ideas§!"
  liberum_veto_title:0 "£icon_ideas£Institute Liberum Veto"
  confirm_thalassocracy_title:0 "£trading_icon£Confirm Thalassocracy"
  indian_trade_company_title:0 "£trading_icon£Found Indian Trade Company"
@@ -820,7 +822,7 @@
  LOADING_TIP_26:1 "'I have somehow erased Swedish culture' - Jake, while making this mod"
  LOADING_TIP_27:0 "'The Copium Wars' - Beau"
  LOADING_TIP_28:1 "'I was not that kinky as a kid' - Husky"
- LOADING_TIP_29:0 "'I like facism, I like ultranationalism' - Husky"
+ LOADING_TIP_29:0 "'I like fascism, I like ultranationalism' - Husky"
  LOADING_TIP_30:0 "'My anus could absorb the planet' - Jeff(e)"
  LOADING_TIP_31:0 "'Don't get me wrong, I'm all for slavery' - Husky"
  LOADING_TIP_32:0 "'If I was allowed to, I would kill every Protestant in America' - Beau"

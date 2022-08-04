@@ -127,7 +127,7 @@ workshop = {
 	cost = 125
 	time = 12
 	modifier = {
-		local_production_efficiency = 0.25
+		local_production_efficiency = 0.40
 	}
 	
 	allow_in_gold_provinces = no
@@ -1310,6 +1310,8 @@ university = {
 	time = 24
 	modifier = {
 		local_development_cost = -0.10
+		local_institution_spread = 0.10
+		institution_growth = 0.05
 		allowed_num_of_buildings = 1
 	}
 	on_built = {
@@ -2013,7 +2015,7 @@ counting_house = {
 
 	make_obsolete = workshop
 	modifier = {
-		local_production_efficiency = 0.75
+		local_production_efficiency = 0.80
 	}
 
 	allow_in_gold_provinces = no
@@ -4037,13 +4039,13 @@ early_road = {
 		#local_development_cost = None
 
 		# Other
-		#allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 1
 		#local_culture_conversion_cost = None
 		local_state_maintenance_modifier = 0.05
 
 		# Movement
 		local_friendly_movement_speed = 0.1
-		#local_hostile_movement_speed = None
+		local_hostile_movement_speed = None
 
 		
     }
@@ -4071,13 +4073,13 @@ gravel_road= {
 		local_development_cost = -0.025
 
 		# Other
-		#allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 1
 		#local_culture_conversion_cost = None
 		local_state_maintenance_modifier = 0.10
 
 		# Movement
 		local_friendly_movement_speed = 0.15
-		#local_hostile_movement_speed = 0.05
+		local_hostile_movement_speed = 0.05
 
     }
     ai_will_do = {
@@ -4109,7 +4111,7 @@ royal_road= {
 
 		# Movement
 		local_friendly_movement_speed = 0.2
-		#local_hostile_movement_speed = 0.1
+		local_hostile_movement_speed = 0.1
     }
     ai_will_do = {
         factor = 5
@@ -4122,13 +4124,13 @@ macadam_road= {
 	make_obsolete = royal_road
 
     one_per_country = no
-    allow_in_gold_provinces = yes
+    allow_in_gold_provinces = no
     onmap = no
     modifier = {
 		# Economy
     	province_trade_power_modifier = 0.4
 		#local_tax_modifier = 0.3
-		#local_production_efficiency = 0.3
+		local_production_efficiency = 0.10
 
 		# Development
 		local_development_cost = -0.075
@@ -4139,8 +4141,8 @@ macadam_road= {
 		local_state_maintenance_modifier = 0.25
 
 		# Movement
-		local_friendly_movement_speed = 0.25
-		#local_hostile_movement_speed = 0.15
+		local_friendly_movement_speed = 0.30
+		local_hostile_movement_speed = 0.15
     }
     ai_will_do = {
         factor = 5
@@ -4154,14 +4156,14 @@ railroad = {
 	make_obsolete = macadam_road
 
     one_per_country = no
-    allow_in_gold_provinces = yes
+    allow_in_gold_provinces = no
     onmap = no
 
     modifier = {
 		# Economy
     	province_trade_power_modifier = 0.5
 		#local_tax_modifier = 0.5
-		#local_production_efficiency = 0.5
+		local_production_efficiency = 0.25
 
 		# Development
 		local_development_cost = -0.1
@@ -4173,7 +4175,7 @@ railroad = {
 
 		# Movement
 		local_friendly_movement_speed = 0.5
-		#local_hostile_movement_speed = 0.3
+		local_hostile_movement_speed = 0.3
     }
 
 	ai_will_do = {

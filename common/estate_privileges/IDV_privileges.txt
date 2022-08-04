@@ -31,7 +31,7 @@ estate_priv_idea_variation_1_6 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 1.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -253,8 +253,8 @@ estate_priv_idea_variation_1_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.30
-		institution_spread_from_true_faith = 0.5
+		reform_progress_growth = 0.20
+		institution_spread_from_true_faith = 0.66
 	}
 
 	ai_will_do = {
@@ -610,8 +610,8 @@ estate_priv_idea_variation_2_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.30
-		global_institution_spread = 0.25
+		reform_progress_growth = 0.40
+		global_institution_spread = 0.10
 	}
 
 	ai_will_do = {
@@ -934,7 +934,7 @@ estate_priv_idea_variation_4_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.20
 		global_sailors_modifier = 0.5
 	}
 
@@ -1030,7 +1030,7 @@ estate_priv_idea_variation_4_7 = {
 estate_priv_idea_variation_4_8 = {
 	icon = IV_privileges_icon_1
 	influence = 0.1
-	loyalty = -0.1
+	loyalty = -0.05
 	is_valid = {
 		estate_influence = {
 		estate = estate_burghers
@@ -1045,8 +1045,8 @@ estate_priv_idea_variation_4_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.30
-		global_institution_spread = 0.25
+		reform_progress_growth = 0.20
+		global_institution_spread = 0.15
 	}
 
 	ai_will_do = {
@@ -1366,7 +1366,7 @@ estate_priv_idea_variation_4_11 = {
 estate_priv_idea_variation_4_13 = {
 	icon = IV_privileges_icon_3
 	influence = 0.1
-	loyalty = -0.1
+	loyalty = -0.15
 	is_valid = {
 		estate_territory = {
 			estate = estate_burghers
@@ -1511,7 +1511,7 @@ estate_priv_idea_variation_3_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.5
+		global_manpower_modifier = 0.4
 		global_sailors_modifier = 0.25
 	}
 
@@ -1943,7 +1943,7 @@ estate_priv_idea_variation_5_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.20
 		global_sailors_modifier = 0.5
 	}
 
@@ -2054,8 +2054,8 @@ estate_priv_idea_variation_5_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.30
-		global_institution_spread = 0.25
+		reform_progress_growth = 0.25
+		global_institution_spread = 0.15
 	}
 
 	ai_will_do = {
@@ -2328,7 +2328,7 @@ estate_priv_idea_variation_5_11 = {
 estate_priv_idea_variation_5_13 = {
 	icon = IV_privileges_icon_3
 	influence = -0.1
-	loyalty = -0.1
+	loyalty = -0.15
 	is_valid = {
 		estate_territory = {
 		estate = estate_vaisyas
@@ -2473,7 +2473,7 @@ estate_priv_idea_variation_6_6 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 0.5
+		global_tax_modifier = 0.2
 	}
 	
 
@@ -2584,7 +2584,7 @@ estate_priv_idea_variation_6_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.20
 		global_sailors_modifier = 0.5
 	}
 
@@ -2695,7 +2695,7 @@ estate_priv_idea_variation_6_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.30
+		reform_progress_growth = 0.25
 		institution_spread_from_true_faith = 0.5
 	}
 
@@ -3063,7 +3063,7 @@ estate_priv_idea_variation_7_6 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 0.5
+		global_tax_modifier = 0.20
 	}
 	
 
@@ -3174,7 +3174,7 @@ estate_priv_idea_variation_7_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.5
+		global_manpower_modifier = 0.33
 	}
 
 	ai_will_do = {
@@ -3284,8 +3284,8 @@ estate_priv_idea_variation_7_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.30
-		global_institution_spread = 0.25
+		reform_progress_growth = 0.25
+		global_institution_spread = 0.15
 	}
 
 	ai_will_do = {
@@ -3392,7 +3392,7 @@ estate_priv_idea_variation_7_11 = {
 	}
 		
 	modifier_by_land_ownership = {
-		special_unit_forcelimit = 0.5
+		special_unit_forcelimit = 0.4
 	}
 	
 	penalties = {
@@ -3558,7 +3558,7 @@ estate_priv_idea_variation_8_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.5
+		global_manpower_modifier = 0.40
 		global_sailors_modifier = 0.25
 	}
 
@@ -3669,8 +3669,8 @@ estate_priv_idea_variation_8_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.30
-		global_institution_spread = 0.25
+		reform_progress_growth = 0.25
+		global_institution_spread = 0.15
 	}
 
 	ai_will_do = {
@@ -3924,7 +3924,7 @@ estate_priv_idea_variation_10_6 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 0.5
+		global_tax_modifier = 0.25
 	}
 	
 
@@ -4035,7 +4035,7 @@ estate_priv_idea_variation_10_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.20
 		global_sailors_modifier = 0.5
 	}
 
@@ -4146,7 +4146,7 @@ estate_priv_idea_variation_10_8 = {
 	}
 	
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.3
+		reform_progress_growth = 0.2
 		global_institution_spread = 0.25
 	}
 
@@ -4270,8 +4270,8 @@ estate_priv_idea_variation_11_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.25
-		global_sailors_modifier = 0.5
+		global_manpower_modifier = 0.20
+		global_sailors_modifier = 0.20
 	}
 
 	ai_will_do = {
@@ -4612,7 +4612,7 @@ estate_priv_idea_variation_12_6 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 0.5
+		global_tax_modifier = 0.20
 	}
 	
 
@@ -4729,8 +4729,8 @@ estate_priv_idea_variation_12_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.75
-		global_sailors_modifier = 0.75
+		global_manpower_modifier = 0.30
+		global_sailors_modifier = 0.30
 	}
 
 	ai_will_do = {
@@ -4849,8 +4849,8 @@ estate_priv_idea_variation_12_8 = {
 	}
 
 	modifier_by_land_ownership = {
-		reform_progress_growth = 0.3
-		global_institution_spread = 0.25
+		reform_progress_growth = 0.20
+		global_institution_spread = 0.20
 	}
 
 	ai_will_do = {

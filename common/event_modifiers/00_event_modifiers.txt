@@ -825,7 +825,8 @@ counter_reformation = {
 	global_heretic_missionary_strength = 0.03
 	papal_influence = 1.5
 	missionaries = 2
-	tolerance_heretic = -2
+	tolerance_heretic = -3
+	global_religious_conversion_resistance = 1.0
 	religion = yes
 }
 
